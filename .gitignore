@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+saved_person/
+
+*.pt
+*.pth
+*.ckpt
+
+faces.index
+paths.pkl

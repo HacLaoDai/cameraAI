@@ -1,3 +1,4 @@
+import torch
 from ultralytics import YOLO
 
 
@@ -7,9 +8,18 @@ class PersonDetector:
         self,
         model_name="yolov8n.pt",
         confidence=0.5,
+        imgsz=416,          # giảm từ 640 (mặc định) -> tăng tốc đáng kể trên CPU
+        num_threads=None,   # giới hạn số luồng CPU cho torch (None = giữ mặc định)
     ):
+        if num_threads is not None:
+            # Lưu ý: đây là cấu hình TOÀN TIẾN TRÌNH (global), không phải riêng
+            # cho từng camera. Nếu chạy nhiều camera, nên set 1 lần duy nhất
+            # ở main() thay vì gọi lặp lại ở từng PersonDetector.
+            torch.set_num_threads(num_threads)
+
         self.model = YOLO(model_name)
         self.confidence = confidence
+        self.imgsz = imgsz
 
     def detect(self, frame):
 
@@ -19,6 +29,7 @@ class PersonDetector:
             tracker="bytetrack.yaml",
             classes=[0],
             conf=self.confidence,
+            imgsz=self.imgsz,
             verbose=False,
         )
 
