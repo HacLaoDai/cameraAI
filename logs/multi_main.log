@@ -1,0 +1,1629 @@
+2026-07-09 15:05:46,185 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:05:55,022 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:05:55,074 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:05:57,225 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 15:06:48,962 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 3 (0.000)
+2026-07-09 15:06:48,963 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 3 -> tạm lưu ảnh toàn thân
+2026-07-09 15:07:04,500 [INFO] multi_main: [cam_cs1] [MATCH] Track 6 -> Chien (person_id=1783055832, 0.769)
+2026-07-09 15:07:14,565 [INFO] multi_main: [cam_cs1] [SKIP-DUP] Track 1 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 15:07:15,134 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 5 (0.059)
+2026-07-09 15:07:17,689 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 11 (0.000)
+2026-07-09 15:07:17,691 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 11 -> tạm lưu ảnh toàn thân
+2026-07-09 15:07:56,393 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-09 15:15:34,860 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:15:37,113 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:15:37,169 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:15:38,308 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 15:16:22,489 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 4 (0.173)
+2026-07-09 15:16:28,418 [INFO] multi_main: [cam_cs1] [MATCH] Track 1 -> Chien (person_id=1783055832, 0.631)
+2026-07-09 15:16:32,576 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 3 (0.304)
+2026-07-09 15:16:35,430 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 5 (0.179)
+2026-07-09 15:20:22,866 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:20:24,886 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:20:24,933 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:20:25,520 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 15:21:17,859 [INFO] multi_main: [cam_cs1] [MATCH] Track 7 -> Chien (person_id=1783055832, 0.721)
+2026-07-09 15:22:56,317 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-09 15:27:13,639 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:27:15,691 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:27:15,758 [INFO] multi_main.camera: Starting camera...
+2026-07-09 15:27:15,758 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:28:48,658 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:28:51,153 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:28:51,205 [INFO] multi_main.camera: Starting camera...
+2026-07-09 15:28:51,206 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:28:51,823 [INFO] multi_main.camera: Camera started.
+2026-07-09 15:28:51,824 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 15:30:24,955 [INFO] multi_main.camera: Stop camera...
+2026-07-09 15:30:25,314 [INFO] multi_main: [cam_cs1] [MATCH] Track 1 -> Chien (person_id=1783055832, 0.614)
+2026-07-09 15:30:27,836 [INFO] multi_main.camera: Camera stopped.
+2026-07-09 15:30:27,837 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-09 15:31:01,231 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:31:04,531 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:31:04,596 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:31:05,188 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 15:32:02,231 [INFO] multi_main: [cam_cs1] [MATCH] Track 1 -> Chien (person_id=1783055832, 0.746)
+2026-07-09 15:32:10,875 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-09 15:32:10,891 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 3 (0.000)
+2026-07-09 15:32:10,892 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 3 -> tạm lưu ảnh toàn thân
+2026-07-09 15:34:19,613 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:34:22,696 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:34:22,765 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:34:23,516 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 15:35:52,282 [INFO] multi_main: [cam_cs1] [MATCH] Track 1 -> Chien (person_id=1783055832, 0.704)
+2026-07-09 15:35:53,120 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 6 (0.000)
+2026-07-09 15:35:53,121 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 6 -> tạm lưu ảnh toàn thân
+2026-07-09 15:36:24,572 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:36:26,549 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:36:26,583 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:36:47,008 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 15:37:31,251 [INFO] multi_main: [cam_cs1] [MATCH] Track 1 -> Chien (person_id=1783055832, 0.669)
+2026-07-09 15:37:34,978 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 2 (0.228)
+2026-07-09 15:37:36,211 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 3 (0.086)
+2026-07-09 15:39:18,615 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-09 15:39:35,421 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:39:37,607 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:39:37,641 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:39:38,237 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 15:40:19,646 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 5 (0.000)
+2026-07-09 15:40:19,646 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 5 -> tạm lưu ảnh toàn thân
+2026-07-09 15:40:22,514 [INFO] multi_main: [cam_cs1] [MATCH] Track 2 -> Chien (person_id=1783055832, 0.730)
+2026-07-09 15:40:22,929 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 4 (0.000)
+2026-07-09 15:40:22,930 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 4 -> tạm lưu ảnh toàn thân
+2026-07-09 15:40:35,115 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-09 15:44:54,683 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:44:56,357 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:44:56,391 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:44:57,126 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 15:45:29,303 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 2 (0.133)
+2026-07-09 15:45:29,822 [INFO] multi_main: [cam_cs1] [MATCH] Track 1 -> Chien (person_id=1783055832, 0.673)
+2026-07-09 15:45:46,573 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:45:48,279 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:45:48,316 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:45:49,166 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 15:46:01,616 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-09 15:49:28,593 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:49:30,315 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:49:30,352 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:49:31,299 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 15:51:46,648 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:51:48,322 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:51:48,413 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:51:48,545 [ERROR] multi_main: [cam_cs1] Cannot start camera
+2026-07-09 15:51:48,596 [INFO] multi_main: [webcam] Pipeline running
+2026-07-09 15:52:07,856 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, 0.607)
+2026-07-09 15:52:22,610 [INFO] multi_main: [webcam] [SKIP-DUP] Track 2 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 15:52:23,445 [INFO] multi_main: [webcam] [UNKNOWN] Track 4 (0.000)
+2026-07-09 15:52:23,445 [WARNING] multi_main: [webcam] Không detect được mặt trong track 4 -> tạm lưu ảnh toàn thân
+2026-07-09 15:53:46,819 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 15:54:06,031 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:54:08,839 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:54:09,011 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:54:12,034 [ERROR] multi_main: [cam_cs1] Cannot start camera
+2026-07-09 15:54:12,035 [ERROR] multi_main: [webcam] Cannot start camera
+2026-07-09 15:54:55,860 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-09 15:54:56,014 [INFO] multi_main: [webcam] [MATCH] Track 4 -> chien (person_id=1783048741, 0.687)
+2026-07-09 15:59:41,324 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 15:59:43,181 [INFO] multi_main: Face identifier ready.
+2026-07-09 15:59:43,272 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-09 15:59:43,455 [INFO] multi_main: [webcam] Pipeline running
+2026-07-09 15:59:46,305 [WARNING] multi_main: [cam_cs1] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-09 15:59:46,306 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 16:00:32,907 [INFO] multi_main: [webcam] [MATCH] Track 2 -> Chien (person_id=1783055832, 0.703)
+2026-07-09 16:00:52,858 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 16:00:53,985 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-09 16:00:54,096 [INFO] multi_main: [webcam] [SKIP-DUP] Track 5 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 16:00:55,637 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-09 16:09:41,104 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 16:09:42,897 [INFO] multi_main: Face identifier ready.
+2026-07-09 16:09:42,982 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-09 16:09:43,166 [INFO] multi_main: [webcam] Pipeline running
+2026-07-09 16:10:12,976 [WARNING] multi_main: [cam_cs1] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-09 16:10:12,977 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 16:10:14,987 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, 0.679)
+2026-07-09 16:10:35,774 [INFO] multi_main: [webcam] [SKIP-DUP] Track 5 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 16:10:42,802 [INFO] multi_main: [webcam] [UNKNOWN] Track 6 (0.358)
+2026-07-09 16:10:46,764 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-09 16:10:46,983 [INFO] multi_main: [webcam] [SKIP-DUP] Track 5 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 16:10:48,030 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-09 17:35:24,048 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 17:35:25,379 [INFO] multi_main: Face identifier ready.
+2026-07-09 17:35:25,456 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-09 17:35:25,643 [INFO] multi_main: [webcam] Pipeline running
+2026-07-09 17:35:27,597 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 17:35:47,176 [INFO] multi_main: [webcam] [UNKNOWN] Track 3 (0.162)
+2026-07-09 17:35:50,297 [INFO] multi_main: [webcam] [UNKNOWN] Track 11 (0.447)
+2026-07-09 17:36:02,598 [INFO] multi_main: [cam_cs1] [MATCH] Track 5 -> Chien (person_id=1783055832, 0.562)
+2026-07-09 17:36:08,262 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 13 (0.152)
+2026-07-09 17:36:33,418 [INFO] multi_main: [webcam] [UNKNOWN] Track 1 (0.000)
+2026-07-09 17:36:33,418 [WARNING] multi_main: [webcam] Không detect được mặt trong track 1 -> tạm lưu ảnh toàn thân
+2026-07-09 17:36:34,754 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 21 (0.121)
+2026-07-09 17:36:44,818 [INFO] multi_main: [cam_cs1] [SKIP-DUP] Track 24 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 17:36:45,830 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 28 (0.000)
+2026-07-09 17:36:45,830 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 28 -> tạm lưu ảnh toàn thân
+2026-07-09 17:36:46,218 [INFO] multi_main: [cam_cs1] [SKIP-DUP] Track 9 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 17:36:55,889 [INFO] multi_main: [webcam] [UNKNOWN] Track 37 (0.000)
+2026-07-09 17:36:55,889 [WARNING] multi_main: [webcam] Không detect được mặt trong track 37 -> tạm lưu ảnh toàn thân
+2026-07-09 17:37:11,624 [INFO] multi_main: [webcam] [SKIP-DUP] Track 37 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 17:37:12,506 [INFO] multi_main: [webcam] [UNKNOWN] Track 45 (0.000)
+2026-07-09 17:37:12,507 [WARNING] multi_main: [webcam] Không detect được mặt trong track 45 -> tạm lưu ảnh toàn thân
+2026-07-09 17:37:21,638 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 44 (0.076)
+2026-07-09 17:37:27,056 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 46 (0.093)
+2026-07-09 17:37:35,413 [INFO] multi_main: [webcam] [UNKNOWN] Track 53 (0.044)
+2026-07-09 17:37:36,483 [INFO] multi_main: [webcam] [UNKNOWN] Track 52 (0.066)
+2026-07-09 17:37:40,892 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 51 (0.000)
+2026-07-09 17:37:40,893 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 51 -> tạm lưu ảnh toàn thân
+2026-07-09 17:37:48,341 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 50 (0.111)
+2026-07-09 17:37:50,289 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 20 (0.074)
+2026-07-09 17:37:56,373 [INFO] multi_main: [webcam] [UNKNOWN] Track 56 (0.000)
+2026-07-09 17:37:56,374 [WARNING] multi_main: [webcam] Không detect được mặt trong track 56 -> tạm lưu ảnh toàn thân
+2026-07-09 17:38:02,511 [INFO] multi_main: [webcam] [UNKNOWN] Track 59 (0.000)
+2026-07-09 17:38:02,512 [WARNING] multi_main: [webcam] Không detect được mặt trong track 59 -> tạm lưu ảnh toàn thân
+2026-07-09 17:38:11,437 [INFO] multi_main: [webcam] [UNKNOWN] Track 59 (0.000)
+2026-07-09 17:38:11,438 [WARNING] multi_main: [webcam] Không detect được mặt trong track 59 -> tạm lưu ảnh toàn thân
+2026-07-09 17:38:12,134 [INFO] multi_main: [webcam] [UNKNOWN] Track 60 (0.000)
+2026-07-09 17:38:12,135 [WARNING] multi_main: [webcam] Không detect được mặt trong track 60 -> tạm lưu ảnh toàn thân
+2026-07-09 17:38:53,029 [INFO] multi_main: [webcam] [SKIP-DUP] Track 63 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 17:38:53,123 [INFO] multi_main: [webcam] [UNKNOWN] Track 71 (0.000)
+2026-07-09 17:38:53,124 [WARNING] multi_main: [webcam] Không detect được mặt trong track 71 -> tạm lưu ảnh toàn thân
+2026-07-09 17:39:20,305 [INFO] multi_main: [cam_cs1] [SKIP-DUP] Track 73 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 17:40:58,165 [INFO] multi_main: [cam_cs1] [SKIP-DUP] Track 82 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 17:41:12,985 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-09 17:41:13,166 [INFO] multi_main: [webcam] [MATCH] Track 76 -> Chien (person_id=1783055832, 0.757)
+2026-07-09 17:41:13,202 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-09 17:41:27,395 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-09 17:41:29,056 [INFO] multi_main: Face identifier ready.
+2026-07-09 17:41:29,118 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-09 17:41:29,302 [INFO] multi_main: [webcam] Pipeline running
+2026-07-09 17:41:29,630 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-09 17:41:53,272 [INFO] multi_main: [webcam] [UNKNOWN] Track 1 (0.361)
+2026-07-09 17:41:55,036 [INFO] multi_main: [webcam] [UNKNOWN] Track 7 (0.000)
+2026-07-09 17:41:55,037 [WARNING] multi_main: [webcam] Không detect được mặt trong track 7 -> tạm lưu ảnh toàn thân
+2026-07-09 17:42:12,867 [INFO] multi_main: [cam_cs1] [MATCH] Track 2 -> Chien (person_id=1783055832, 0.488)
+2026-07-09 17:43:57,627 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 8 (0.000)
+2026-07-09 17:43:57,627 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 8 -> tạm lưu ảnh toàn thân
+2026-07-09 17:44:54,655 [INFO] multi_main: [webcam] [UNKNOWN] Track 11 (0.000)
+2026-07-09 17:44:54,656 [WARNING] multi_main: [webcam] Không detect được mặt trong track 11 -> tạm lưu ảnh toàn thân
+2026-07-09 17:44:54,919 [INFO] multi_main: [webcam] [UNKNOWN] Track 13 (0.000)
+2026-07-09 17:44:54,919 [WARNING] multi_main: [webcam] Không detect được mặt trong track 13 -> tạm lưu ảnh toàn thân
+2026-07-09 17:45:02,880 [INFO] multi_main: [webcam] [UNKNOWN] Track 17 (0.000)
+2026-07-09 17:45:02,880 [WARNING] multi_main: [webcam] Không detect được mặt trong track 17 -> tạm lưu ảnh toàn thân
+2026-07-09 17:45:05,770 [INFO] multi_main: [webcam] [UNKNOWN] Track 18 (0.000)
+2026-07-09 17:45:05,771 [WARNING] multi_main: [webcam] Không detect được mặt trong track 18 -> tạm lưu ảnh toàn thân
+2026-07-09 17:45:31,746 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 9 (0.000)
+2026-07-09 17:45:31,747 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 9 -> tạm lưu ảnh toàn thân
+2026-07-09 17:45:40,713 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 15 (0.000)
+2026-07-09 17:45:40,713 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 15 -> tạm lưu ảnh toàn thân
+2026-07-09 17:46:59,622 [INFO] multi_main: [webcam] [UNKNOWN] Track 27 (0.000)
+2026-07-09 17:46:59,622 [WARNING] multi_main: [webcam] Không detect được mặt trong track 27 -> tạm lưu ảnh toàn thân
+2026-07-09 17:47:00,381 [INFO] multi_main: [webcam] [SKIP-DUP] Track 26 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 17:47:09,196 [INFO] multi_main: [cam_cs1] [SKIP-DUP] Track 21 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 17:49:42,024 [INFO] multi_main: [webcam] [MATCH] Track 26 -> Chien (person_id=1783055832, 0.758)
+2026-07-09 17:50:02,137 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 34 (0.000)
+2026-07-09 17:50:02,137 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 34 -> tạm lưu ảnh toàn thân
+2026-07-09 17:50:33,070 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 38 (0.204)
+2026-07-09 17:52:05,184 [INFO] multi_main: [cam_cs1] [SKIP-DUP] Track 40 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 17:52:09,149 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 36 (0.000)
+2026-07-09 17:52:09,149 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 36 -> tạm lưu ảnh toàn thân
+2026-07-09 17:54:07,449 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 42 (0.000)
+2026-07-09 17:54:07,450 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 42 -> tạm lưu ảnh toàn thân
+2026-07-09 17:54:09,749 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 45 (0.000)
+2026-07-09 17:54:09,749 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 45 -> tạm lưu ảnh toàn thân
+2026-07-09 17:54:48,290 [INFO] multi_main: [webcam] [UNKNOWN] Track 47 (0.131)
+2026-07-09 17:54:55,271 [INFO] multi_main: [webcam] [UNKNOWN] Track 47 (0.146)
+2026-07-09 17:54:56,346 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 46 (0.103)
+2026-07-09 17:55:03,470 [INFO] multi_main: [webcam] [UNKNOWN] Track 47 (0.139)
+2026-07-09 17:55:09,135 [INFO] multi_main: [webcam] [UNKNOWN] Track 47 (0.143)
+2026-07-09 17:55:33,332 [INFO] multi_main: [webcam] [UNKNOWN] Track 58 (0.000)
+2026-07-09 17:55:33,333 [WARNING] multi_main: [webcam] Không detect được mặt trong track 58 -> tạm lưu ảnh toàn thân
+2026-07-09 17:55:36,652 [INFO] multi_main: [webcam] [UNKNOWN] Track 47 (0.171)
+2026-07-09 17:55:36,995 [INFO] multi_main: [webcam] [UNKNOWN] Track 60 (0.000)
+2026-07-09 17:55:36,996 [WARNING] multi_main: [webcam] Không detect được mặt trong track 60 -> tạm lưu ảnh toàn thân
+2026-07-09 17:55:38,623 [INFO] multi_main: [webcam] [UNKNOWN] Track 60 (0.000)
+2026-07-09 17:55:38,624 [WARNING] multi_main: [webcam] Không detect được mặt trong track 60 -> tạm lưu ảnh toàn thân
+2026-07-09 17:55:40,208 [INFO] multi_main: [webcam] [UNKNOWN] Track 47 (0.101)
+2026-07-09 17:56:08,629 [INFO] multi_main: [webcam] [UNKNOWN] Track 60 (0.000)
+2026-07-09 17:56:08,630 [WARNING] multi_main: [webcam] Không detect được mặt trong track 60 -> tạm lưu ảnh toàn thân
+2026-07-09 17:56:10,266 [INFO] multi_main: [webcam] [UNKNOWN] Track 47 (0.080)
+2026-07-09 17:56:16,285 [INFO] multi_main: [webcam] [UNKNOWN] Track 47 (0.062)
+2026-07-09 17:56:17,095 [INFO] multi_main: [webcam] [UNKNOWN] Track 62 (0.000)
+2026-07-09 17:56:17,095 [WARNING] multi_main: [webcam] Không detect được mặt trong track 62 -> tạm lưu ảnh toàn thân
+2026-07-09 17:56:23,489 [INFO] multi_main: [webcam] [UNKNOWN] Track 62 (0.000)
+2026-07-09 17:56:23,490 [WARNING] multi_main: [webcam] Không detect được mặt trong track 62 -> tạm lưu ảnh toàn thân
+2026-07-09 17:56:23,882 [INFO] multi_main: [webcam] [UNKNOWN] Track 65 (0.000)
+2026-07-09 17:56:23,883 [WARNING] multi_main: [webcam] Không detect được mặt trong track 65 -> tạm lưu ảnh toàn thân
+2026-07-09 17:56:26,380 [INFO] multi_main: [webcam] [UNKNOWN] Track 68 (0.000)
+2026-07-09 17:56:26,381 [WARNING] multi_main: [webcam] Không detect được mặt trong track 68 -> tạm lưu ảnh toàn thân
+2026-07-09 17:56:31,940 [INFO] multi_main: [webcam] [UNKNOWN] Track 73 (0.000)
+2026-07-09 17:56:31,943 [WARNING] multi_main: [webcam] Không detect được mặt trong track 73 -> tạm lưu ảnh toàn thân
+2026-07-09 17:56:32,493 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 64 (0.069)
+2026-07-09 17:56:32,830 [INFO] multi_main: [webcam] [MATCH] Track 72 -> Chien (person_id=1783055832, 0.534)
+2026-07-09 17:56:34,441 [INFO] multi_main: [webcam] [UNKNOWN] Track 68 (0.145)
+2026-07-09 17:56:53,333 [INFO] multi_main: [webcam] [UNKNOWN] Track 68 (0.132)
+2026-07-09 17:57:01,180 [INFO] multi_main: [webcam] [UNKNOWN] Track 68 (0.147)
+2026-07-09 17:57:07,658 [INFO] multi_main: [webcam] [UNKNOWN] Track 68 (0.144)
+2026-07-09 17:57:20,727 [INFO] multi_main: [webcam] [UNKNOWN] Track 84 (0.000)
+2026-07-09 17:57:20,728 [WARNING] multi_main: [webcam] Không detect được mặt trong track 84 -> tạm lưu ảnh toàn thân
+2026-07-09 17:57:26,663 [INFO] multi_main: [webcam] [UNKNOWN] Track 68 (0.106)
+2026-07-09 17:57:29,153 [INFO] multi_main: [webcam] [UNKNOWN] Track 90 (0.000)
+2026-07-09 17:57:29,153 [WARNING] multi_main: [webcam] Không detect được mặt trong track 90 -> tạm lưu ảnh toàn thân
+2026-07-09 17:57:32,026 [INFO] multi_main: [webcam] [UNKNOWN] Track 68 (0.120)
+2026-07-09 17:57:45,503 [INFO] multi_main: [webcam] [SKIP-DUP] Track 95 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 17:57:47,580 [INFO] multi_main: [webcam] [UNKNOWN] Track 98 (0.000)
+2026-07-09 17:57:47,585 [WARNING] multi_main: [webcam] Không detect được mặt trong track 98 -> tạm lưu ảnh toàn thân
+2026-07-09 17:58:01,241 [INFO] multi_main: [webcam] [SKIP-DUP] Track 96 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 17:59:15,822 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 106 (0.151)
+2026-07-09 17:59:37,674 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 107 (0.133)
+2026-07-09 17:59:44,776 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 108 (0.061)
+2026-07-09 17:59:44,982 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 109 (0.000)
+2026-07-09 17:59:44,983 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 109 -> tạm lưu ảnh toàn thân
+2026-07-09 18:00:58,049 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 110 (0.251)
+2026-07-09 18:01:30,883 [INFO] multi_main: [webcam] [UNKNOWN] Track 117 (0.000)
+2026-07-09 18:01:30,884 [WARNING] multi_main: [webcam] Không detect được mặt trong track 117 -> tạm lưu ảnh toàn thân
+2026-07-09 18:01:31,097 [INFO] multi_main: [webcam] [UNKNOWN] Track 115 (0.000)
+2026-07-09 18:01:31,098 [WARNING] multi_main: [webcam] Không detect được mặt trong track 115 -> tạm lưu ảnh toàn thân
+2026-07-09 18:01:44,262 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 116 (0.128)
+2026-07-09 18:01:48,229 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 118 (0.097)
+2026-07-09 18:02:10,305 [INFO] multi_main: [webcam] [MATCH] Track 115 -> Chien (person_id=1783055832, 0.646)
+2026-07-09 18:02:10,602 [INFO] multi_main: [webcam] [UNKNOWN] Track 117 (0.000)
+2026-07-09 18:02:10,603 [WARNING] multi_main: [webcam] Không detect được mặt trong track 117 -> tạm lưu ảnh toàn thân
+2026-07-09 18:02:18,916 [INFO] multi_main: [webcam] [MATCH] Track 115 -> chien (person_id=1783048741, 0.636)
+2026-07-09 18:02:19,490 [INFO] multi_main: [webcam] [UNKNOWN] Track 117 (0.000)
+2026-07-09 18:02:19,490 [WARNING] multi_main: [webcam] Không detect được mặt trong track 117 -> tạm lưu ảnh toàn thân
+2026-07-09 18:02:41,983 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 122 (0.000)
+2026-07-09 18:02:41,984 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 122 -> tạm lưu ảnh toàn thân
+2026-07-09 18:02:50,573 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 124 (0.000)
+2026-07-09 18:02:50,574 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 124 -> tạm lưu ảnh toàn thân
+2026-07-09 18:02:52,763 [INFO] multi_main: [webcam] [SKIP-DUP] Track 115 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 18:02:53,055 [INFO] multi_main: [webcam] [UNKNOWN] Track 117 (0.000)
+2026-07-09 18:02:53,055 [WARNING] multi_main: [webcam] Không detect được mặt trong track 117 -> tạm lưu ảnh toàn thân
+2026-07-09 18:02:57,166 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 125 (0.115)
+2026-07-09 18:03:15,778 [INFO] multi_main: [webcam] [SKIP-DUP] Track 115 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 18:03:16,035 [INFO] multi_main: [webcam] [UNKNOWN] Track 117 (0.000)
+2026-07-09 18:03:16,035 [WARNING] multi_main: [webcam] Không detect được mặt trong track 117 -> tạm lưu ảnh toàn thân
+2026-07-09 18:03:29,325 [INFO] multi_main: [webcam] [UNKNOWN] Track 117 (0.000)
+2026-07-09 18:03:29,326 [WARNING] multi_main: [webcam] Không detect được mặt trong track 117 -> tạm lưu ảnh toàn thân
+2026-07-09 18:03:36,741 [INFO] multi_main: [webcam] [UNKNOWN] Track 136 (0.000)
+2026-07-09 18:03:36,741 [WARNING] multi_main: [webcam] Không detect được mặt trong track 136 -> tạm lưu ảnh toàn thân
+2026-07-09 18:03:37,651 [INFO] multi_main: [webcam] [SKIP-DUP] Track 129 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 18:03:40,977 [INFO] multi_main: [webcam] [UNKNOWN] Track 136 (0.000)
+2026-07-09 18:03:40,978 [WARNING] multi_main: [webcam] Không detect được mặt trong track 136 -> tạm lưu ảnh toàn thân
+2026-07-09 18:03:41,219 [INFO] multi_main: [webcam] [UNKNOWN] Track 129 (0.000)
+2026-07-09 18:03:41,219 [WARNING] multi_main: [webcam] Không detect được mặt trong track 129 -> tạm lưu ảnh toàn thân
+2026-07-09 18:03:47,085 [INFO] multi_main: [webcam] [UNKNOWN] Track 136 (0.000)
+2026-07-09 18:03:47,086 [WARNING] multi_main: [webcam] Không detect được mặt trong track 136 -> tạm lưu ảnh toàn thân
+2026-07-09 18:03:47,302 [INFO] multi_main: [webcam] [UNKNOWN] Track 129 (0.000)
+2026-07-09 18:03:47,302 [WARNING] multi_main: [webcam] Không detect được mặt trong track 129 -> tạm lưu ảnh toàn thân
+2026-07-09 18:03:54,805 [INFO] multi_main: [webcam] [UNKNOWN] Track 136 (0.000)
+2026-07-09 18:03:54,805 [WARNING] multi_main: [webcam] Không detect được mặt trong track 136 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:02,471 [INFO] multi_main: [webcam] [UNKNOWN] Track 136 (0.000)
+2026-07-09 18:04:02,471 [WARNING] multi_main: [webcam] Không detect được mặt trong track 136 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:05,528 [INFO] multi_main: [webcam] [UNKNOWN] Track 136 (0.000)
+2026-07-09 18:04:05,529 [WARNING] multi_main: [webcam] Không detect được mặt trong track 136 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:09,714 [INFO] multi_main: [webcam] [UNKNOWN] Track 136 (0.000)
+2026-07-09 18:04:09,715 [WARNING] multi_main: [webcam] Không detect được mặt trong track 136 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:09,991 [INFO] multi_main: [webcam] [UNKNOWN] Track 129 (0.000)
+2026-07-09 18:04:09,991 [WARNING] multi_main: [webcam] Không detect được mặt trong track 129 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:17,563 [INFO] multi_main: [webcam] [UNKNOWN] Track 136 (0.000)
+2026-07-09 18:04:17,564 [WARNING] multi_main: [webcam] Không detect được mặt trong track 136 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:17,781 [INFO] multi_main: [webcam] [UNKNOWN] Track 129 (0.000)
+2026-07-09 18:04:17,781 [WARNING] multi_main: [webcam] Không detect được mặt trong track 129 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:22,483 [INFO] multi_main: [webcam] [UNKNOWN] Track 136 (0.000)
+2026-07-09 18:04:22,483 [WARNING] multi_main: [webcam] Không detect được mặt trong track 136 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:22,637 [INFO] multi_main: [webcam] [UNKNOWN] Track 129 (0.000)
+2026-07-09 18:04:22,638 [WARNING] multi_main: [webcam] Không detect được mặt trong track 129 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:31,290 [INFO] multi_main: [webcam] [UNKNOWN] Track 136 (0.000)
+2026-07-09 18:04:31,290 [WARNING] multi_main: [webcam] Không detect được mặt trong track 136 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:32,134 [INFO] multi_main: [webcam] [SKIP-DUP] Track 129 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 18:04:35,010 [INFO] multi_main: [webcam] [UNKNOWN] Track 129 (0.000)
+2026-07-09 18:04:35,011 [WARNING] multi_main: [webcam] Không detect được mặt trong track 129 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:37,382 [INFO] multi_main: [webcam] [UNKNOWN] Track 129 (0.000)
+2026-07-09 18:04:37,383 [WARNING] multi_main: [webcam] Không detect được mặt trong track 129 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:37,567 [INFO] multi_main: [webcam] [UNKNOWN] Track 138 (0.000)
+2026-07-09 18:04:37,567 [WARNING] multi_main: [webcam] Không detect được mặt trong track 138 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:53,660 [INFO] multi_main: [webcam] [UNKNOWN] Track 138 (0.000)
+2026-07-09 18:04:53,661 [WARNING] multi_main: [webcam] Không detect được mặt trong track 138 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:55,776 [INFO] multi_main: [webcam] [UNKNOWN] Track 138 (0.000)
+2026-07-09 18:04:55,777 [WARNING] multi_main: [webcam] Không detect được mặt trong track 138 -> tạm lưu ảnh toàn thân
+2026-07-09 18:04:56,066 [INFO] multi_main: [webcam] [UNKNOWN] Track 129 (0.000)
+2026-07-09 18:04:56,066 [WARNING] multi_main: [webcam] Không detect được mặt trong track 129 -> tạm lưu ảnh toàn thân
+2026-07-09 18:05:03,057 [INFO] multi_main: [webcam] [UNKNOWN] Track 138 (0.000)
+2026-07-09 18:05:03,058 [WARNING] multi_main: [webcam] Không detect được mặt trong track 138 -> tạm lưu ảnh toàn thân
+2026-07-09 18:05:03,332 [INFO] multi_main: [webcam] [UNKNOWN] Track 139 (0.000)
+2026-07-09 18:05:03,333 [WARNING] multi_main: [webcam] Không detect được mặt trong track 139 -> tạm lưu ảnh toàn thân
+2026-07-09 18:05:18,836 [INFO] multi_main: [webcam] [UNKNOWN] Track 138 (0.000)
+2026-07-09 18:05:18,836 [WARNING] multi_main: [webcam] Không detect được mặt trong track 138 -> tạm lưu ảnh toàn thân
+2026-07-09 18:05:19,444 [INFO] multi_main: [webcam] [UNKNOWN] Track 139 (0.000)
+2026-07-09 18:05:19,445 [WARNING] multi_main: [webcam] Không detect được mặt trong track 139 -> tạm lưu ảnh toàn thân
+2026-07-09 18:05:21,033 [INFO] multi_main: [webcam] [UNKNOWN] Track 144 (0.000)
+2026-07-09 18:05:21,033 [WARNING] multi_main: [webcam] Không detect được mặt trong track 144 -> tạm lưu ảnh toàn thân
+2026-07-09 18:05:21,288 [INFO] multi_main: [webcam] [UNKNOWN] Track 142 (0.000)
+2026-07-09 18:05:21,289 [WARNING] multi_main: [webcam] Không detect được mặt trong track 142 -> tạm lưu ảnh toàn thân
+2026-07-09 18:05:27,690 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 141 (0.000)
+2026-07-09 18:05:27,690 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 141 -> tạm lưu ảnh toàn thân
+2026-07-09 18:05:56,096 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 147 (0.067)
+2026-07-09 18:06:20,642 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 148 (0.140)
+2026-07-09 18:06:42,121 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 150 (0.087)
+2026-07-09 18:07:13,562 [INFO] multi_main: [webcam] [UNKNOWN] Track 156 (0.000)
+2026-07-09 18:07:13,563 [WARNING] multi_main: [webcam] Không detect được mặt trong track 156 -> tạm lưu ảnh toàn thân
+2026-07-09 18:07:19,885 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 149 (0.344)
+2026-07-09 18:08:20,204 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 166 (0.120)
+2026-07-09 18:08:30,241 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 177 (0.123)
+2026-07-09 18:09:07,972 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 179 (0.094)
+2026-07-09 18:09:23,774 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 180 (0.099)
+2026-07-09 18:09:46,629 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 183 (0.135)
+2026-07-09 18:10:30,500 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 185 (0.036)
+2026-07-09 18:10:35,277 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 186 (0.000)
+2026-07-09 18:10:35,277 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 186 -> tạm lưu ảnh toàn thân
+2026-07-09 18:10:55,184 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 188 (0.087)
+2026-07-09 18:11:12,068 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 189 (0.127)
+2026-07-09 18:11:27,549 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 190 (0.076)
+2026-07-09 18:11:29,065 [INFO] multi_main: [webcam] [UNKNOWN] Track 196 (0.000)
+2026-07-09 18:11:29,065 [WARNING] multi_main: [webcam] Không detect được mặt trong track 196 -> tạm lưu ảnh toàn thân
+2026-07-09 18:11:35,019 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 194 (0.092)
+2026-07-09 18:12:57,413 [INFO] multi_main: [webcam] [UNKNOWN] Track 198 (0.000)
+2026-07-09 18:12:57,414 [WARNING] multi_main: [webcam] Không detect được mặt trong track 198 -> tạm lưu ảnh toàn thân
+2026-07-09 18:12:58,954 [INFO] multi_main: [webcam] [MATCH] Track 197 -> Chien (person_id=1783055832, 0.575)
+2026-07-09 18:13:06,712 [INFO] multi_main: [webcam] [UNKNOWN] Track 204 (0.390)
+2026-07-09 18:13:10,699 [INFO] multi_main: [webcam] [UNKNOWN] Track 205 (0.000)
+2026-07-09 18:13:10,699 [WARNING] multi_main: [webcam] Không detect được mặt trong track 205 -> tạm lưu ảnh toàn thân
+2026-07-09 18:13:12,195 [INFO] multi_main: [webcam] [UNKNOWN] Track 206 (0.000)
+2026-07-09 18:13:12,196 [WARNING] multi_main: [webcam] Không detect được mặt trong track 206 -> tạm lưu ảnh toàn thân
+2026-07-09 18:13:20,315 [INFO] multi_main: [webcam] [UNKNOWN] Track 202 (0.119)
+2026-07-09 18:13:20,596 [INFO] multi_main: [webcam] [UNKNOWN] Track 208 (0.000)
+2026-07-09 18:13:20,596 [WARNING] multi_main: [webcam] Không detect được mặt trong track 208 -> tạm lưu ảnh toàn thân
+2026-07-09 18:13:20,856 [INFO] multi_main: [webcam] [UNKNOWN] Track 209 (0.000)
+2026-07-09 18:13:20,857 [WARNING] multi_main: [webcam] Không detect được mặt trong track 209 -> tạm lưu ảnh toàn thân
+2026-07-09 18:13:35,036 [INFO] multi_main: [webcam] [UNKNOWN] Track 209 (0.000)
+2026-07-09 18:13:35,036 [WARNING] multi_main: [webcam] Không detect được mặt trong track 209 -> tạm lưu ảnh toàn thân
+2026-07-09 18:13:39,400 [INFO] multi_main: [webcam] [UNKNOWN] Track 208 (0.000)
+2026-07-09 18:13:39,400 [WARNING] multi_main: [webcam] Không detect được mặt trong track 208 -> tạm lưu ảnh toàn thân
+2026-07-09 18:13:39,667 [INFO] multi_main: [webcam] [UNKNOWN] Track 210 (0.000)
+2026-07-09 18:13:39,668 [WARNING] multi_main: [webcam] Không detect được mặt trong track 210 -> tạm lưu ảnh toàn thân
+2026-07-09 18:13:59,737 [INFO] multi_main: [webcam] [SKIP-DUP] Track 208 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 18:14:00,012 [INFO] multi_main: [webcam] [UNKNOWN] Track 210 (0.000)
+2026-07-09 18:14:00,013 [WARNING] multi_main: [webcam] Không detect được mặt trong track 210 -> tạm lưu ảnh toàn thân
+2026-07-09 18:14:10,405 [INFO] multi_main: [webcam] [UNKNOWN] Track 222 (0.000)
+2026-07-09 18:14:10,405 [WARNING] multi_main: [webcam] Không detect được mặt trong track 222 -> tạm lưu ảnh toàn thân
+2026-07-09 18:14:10,784 [INFO] multi_main: [webcam] [SKIP-DUP] Track 208 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 18:14:11,025 [INFO] multi_main: [webcam] [UNKNOWN] Track 210 (0.000)
+2026-07-09 18:14:11,026 [WARNING] multi_main: [webcam] Không detect được mặt trong track 210 -> tạm lưu ảnh toàn thân
+2026-07-09 18:14:28,122 [INFO] multi_main: [webcam] [UNKNOWN] Track 222 (0.000)
+2026-07-09 18:14:28,124 [WARNING] multi_main: [webcam] Không detect được mặt trong track 222 -> tạm lưu ảnh toàn thân
+2026-07-09 18:14:42,072 [INFO] multi_main: [webcam] [UNKNOWN] Track 230 (0.000)
+2026-07-09 18:14:42,072 [WARNING] multi_main: [webcam] Không detect được mặt trong track 230 -> tạm lưu ảnh toàn thân
+2026-07-09 18:14:42,525 [INFO] multi_main: [webcam] [UNKNOWN] Track 208 (0.000)
+2026-07-09 18:14:42,526 [WARNING] multi_main: [webcam] Không detect được mặt trong track 208 -> tạm lưu ảnh toàn thân
+2026-07-09 18:14:42,948 [INFO] multi_main: [webcam] [UNKNOWN] Track 231 (0.058)
+2026-07-09 18:14:54,143 [INFO] multi_main: [webcam] [UNKNOWN] Track 230 (0.000)
+2026-07-09 18:14:54,144 [WARNING] multi_main: [webcam] Không detect được mặt trong track 230 -> tạm lưu ảnh toàn thân
+2026-07-09 18:14:57,495 [INFO] multi_main: [webcam] [SKIP-DUP] Track 208 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 18:15:14,853 [INFO] multi_main: [webcam] [UNKNOWN] Track 238 (0.000)
+2026-07-09 18:15:14,853 [WARNING] multi_main: [webcam] Không detect được mặt trong track 238 -> tạm lưu ảnh toàn thân
+2026-07-09 18:15:15,623 [INFO] multi_main: [webcam] [MATCH] Track 208 -> chien (person_id=1783048741, 0.656)
+2026-07-09 18:15:26,476 [INFO] multi_main: [webcam] [UNKNOWN] Track 238 (0.000)
+2026-07-09 18:15:26,477 [WARNING] multi_main: [webcam] Không detect được mặt trong track 238 -> tạm lưu ảnh toàn thân
+2026-07-09 18:15:27,073 [INFO] multi_main: [webcam] [SKIP-DUP] Track 208 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-09 18:15:36,817 [INFO] multi_main: [webcam] [UNKNOWN] Track 238 (0.000)
+2026-07-09 18:15:36,818 [WARNING] multi_main: [webcam] Không detect được mặt trong track 238 -> tạm lưu ảnh toàn thân
+2026-07-09 18:15:38,422 [INFO] multi_main: [webcam] [UNKNOWN] Track 240 (0.008)
+2026-07-09 18:15:49,466 [INFO] multi_main: [webcam] [UNKNOWN] Track 247 (0.000)
+2026-07-09 18:15:49,466 [WARNING] multi_main: [webcam] Không detect được mặt trong track 247 -> tạm lưu ảnh toàn thân
+2026-07-09 18:15:52,135 [INFO] multi_main: [webcam] [UNKNOWN] Track 208 (0.000)
+2026-07-09 18:15:52,136 [WARNING] multi_main: [webcam] Không detect được mặt trong track 208 -> tạm lưu ảnh toàn thân
+2026-07-09 18:15:53,951 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 242 (0.000)
+2026-07-09 18:15:53,951 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 242 -> tạm lưu ảnh toàn thân
+2026-07-09 18:15:58,768 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 248 (0.000)
+2026-07-09 18:15:58,768 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 248 -> tạm lưu ảnh toàn thân
+2026-07-09 18:16:17,487 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 249 (0.053)
+2026-07-09 18:16:24,984 [INFO] multi_main: [webcam] [UNKNOWN] Track 258 (0.000)
+2026-07-09 18:16:24,985 [WARNING] multi_main: [webcam] Không detect được mặt trong track 258 -> tạm lưu ảnh toàn thân
+2026-07-09 18:16:25,406 [INFO] multi_main: [webcam] [UNKNOWN] Track 260 (0.000)
+2026-07-09 18:16:25,406 [WARNING] multi_main: [webcam] Không detect được mặt trong track 260 -> tạm lưu ảnh toàn thân
+2026-07-09 18:16:36,213 [INFO] multi_main: [webcam] [UNKNOWN] Track 259 (0.000)
+2026-07-09 18:16:36,214 [WARNING] multi_main: [webcam] Không detect được mặt trong track 259 -> tạm lưu ảnh toàn thân
+2026-07-09 18:16:36,839 [INFO] multi_main: [webcam] [UNKNOWN] Track 263 (0.000)
+2026-07-09 18:16:36,839 [WARNING] multi_main: [webcam] Không detect được mặt trong track 263 -> tạm lưu ảnh toàn thân
+2026-07-09 18:16:37,565 [INFO] multi_main: [webcam] [UNKNOWN] Track 271 (0.000)
+2026-07-09 18:16:37,566 [WARNING] multi_main: [webcam] Không detect được mặt trong track 271 -> tạm lưu ảnh toàn thân
+2026-07-09 18:16:38,957 [INFO] multi_main: [webcam] [UNKNOWN] Track 274 (0.000)
+2026-07-09 18:16:38,958 [WARNING] multi_main: [webcam] Không detect được mặt trong track 274 -> tạm lưu ảnh toàn thân
+2026-07-09 18:16:40,984 [INFO] multi_main: [webcam] [UNKNOWN] Track 269 (0.000)
+2026-07-09 18:16:40,984 [WARNING] multi_main: [webcam] Không detect được mặt trong track 269 -> tạm lưu ảnh toàn thân
+2026-07-09 18:16:41,218 [INFO] multi_main: [webcam] [UNKNOWN] Track 273 (0.000)
+2026-07-09 18:16:41,218 [WARNING] multi_main: [webcam] Không detect được mặt trong track 273 -> tạm lưu ảnh toàn thân
+2026-07-09 18:16:41,350 [INFO] multi_main: [webcam] [UNKNOWN] Track 275 (0.000)
+2026-07-09 18:16:41,350 [WARNING] multi_main: [webcam] Không detect được mặt trong track 275 -> tạm lưu ảnh toàn thân
+2026-07-09 18:16:42,682 [INFO] multi_main: [webcam] [UNKNOWN] Track 277 (0.000)
+2026-07-09 18:16:42,683 [WARNING] multi_main: [webcam] Không detect được mặt trong track 277 -> tạm lưu ảnh toàn thân
+2026-07-10 00:16:25,467 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-10 00:16:49,610 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 250 (0.146)
+2026-07-10 00:16:58,677 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-10 14:42:52,945 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 14:42:56,410 [INFO] multi_main: Face identifier ready.
+2026-07-10 14:42:56,572 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 14:42:56,761 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 14:43:05,616 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, 0.773)
+2026-07-10 14:43:26,573 [WARNING] multi_main: [cam_cs1] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-10 14:43:26,573 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-10 14:44:28,709 [INFO] multi_main: [webcam] [UNKNOWN] Track 1 (0.347)
+2026-07-10 14:45:45,869 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 14:47:16,770 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 14:47:50,475 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 14:47:56,365 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 14:48:02,417 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 14:49:11,330 [INFO] multi_main: [webcam] [MATCH] Track 4 -> Chien (person_id=1783055832, 0.733)
+2026-07-10 14:49:27,241 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 14:49:38,289 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 14:49:45,521 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 14:49:49,956 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 14:49:56,124 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 14:50:15,953 [INFO] multi_main: [webcam] [UNKNOWN] Track 4 (0.444)
+2026-07-10 14:50:16,244 [INFO] multi_main: [webcam] [UNKNOWN] Track 9 (0.000)
+2026-07-10 14:50:16,245 [WARNING] multi_main: [webcam] Không detect được mặt trong track 9 -> tạm lưu ảnh toàn thân
+2026-07-10 14:50:20,871 [INFO] multi_main: [webcam] [UNKNOWN] Track 10 (0.178)
+2026-07-10 14:51:42,665 [INFO] multi_main: [webcam] [SKIP-DUP] Track 11 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 14:51:51,339 [INFO] multi_main: [webcam] [SKIP-DUP] Track 11 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 14:52:05,659 [INFO] multi_main: [webcam] [UNKNOWN] Track 11 (0.000)
+2026-07-10 14:52:05,660 [WARNING] multi_main: [webcam] Không detect được mặt trong track 11 -> tạm lưu ảnh toàn thân
+2026-07-10 14:52:44,468 [INFO] multi_main: [webcam] [UNKNOWN] Track 16 (0.000)
+2026-07-10 14:52:44,468 [WARNING] multi_main: [webcam] Không detect được mặt trong track 16 -> tạm lưu ảnh toàn thân
+2026-07-10 14:57:46,018 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-10 14:57:46,230 [INFO] multi_main: [webcam] [MATCH] Track 17 -> Chien (person_id=1783055832, 0.633)
+2026-07-10 14:59:17,199 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 14:59:19,467 [INFO] multi_main: Face identifier ready.
+2026-07-10 14:59:19,567 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 14:59:19,751 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 14:59:49,574 [WARNING] multi_main: [cam_cs1] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-10 14:59:49,575 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-10 15:01:03,511 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, 0.786)
+2026-07-10 15:01:55,861 [INFO] multi_main: [webcam] [SKIP-DUP] Track 1 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 15:03:53,840 [INFO] multi_main: [webcam] [SKIP-DUP] Track 1 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 15:05:43,033 [INFO] multi_main: [webcam] [SKIP-DUP] Track 1 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 15:05:48,783 [INFO] multi_main: [webcam] [SKIP-DUP] Track 1 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 15:06:22,068 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-10 15:06:22,634 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, 0.776)
+2026-07-10 15:06:23,100 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-10 15:07:16,927 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 15:07:21,274 [INFO] multi_main: Face identifier ready.
+2026-07-10 15:07:21,482 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 15:07:21,671 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 15:07:23,750 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-10 15:13:29,075 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 15:13:32,369 [INFO] multi_main: Face identifier ready.
+2026-07-10 15:13:32,515 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 15:13:32,700 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 15:13:33,337 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-10 15:15:51,397 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-10 15:15:51,813 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-10 15:16:52,862 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 15:16:55,652 [INFO] multi_main: Face identifier ready.
+2026-07-10 15:16:55,765 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 15:16:55,949 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 15:16:56,288 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-10 15:17:00,006 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-10 15:17:00,031 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-10 15:24:40,167 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 15:24:42,280 [INFO] multi_main: Face identifier ready.
+2026-07-10 15:24:42,375 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 15:24:42,558 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 15:24:42,932 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-10 15:24:47,381 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-10 15:24:47,450 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-10 15:29:50,147 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 15:29:53,335 [INFO] multi_main: Face identifier ready.
+2026-07-10 15:29:53,513 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 15:29:53,699 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 15:29:54,405 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-10 15:32:23,412 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-10 15:32:23,623 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-10 15:40:49,762 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 15:40:51,504 [INFO] multi_main: Face identifier ready.
+2026-07-10 15:40:51,585 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 15:40:51,769 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 15:40:52,087 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-10 15:41:15,908 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 15:41:17,557 [INFO] multi_main: Face identifier ready.
+2026-07-10 15:41:17,622 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 15:41:17,806 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 15:41:18,123 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-10 15:42:31,708 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 15:42:33,201 [INFO] multi_main: Face identifier ready.
+2026-07-10 15:42:33,268 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 15:42:33,451 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 15:42:33,789 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-10 15:43:45,593 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 15:43:47,155 [INFO] multi_main: Face identifier ready.
+2026-07-10 15:43:47,218 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 15:43:47,401 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 15:43:47,810 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-10 15:45:44,078 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 15:45:45,687 [INFO] multi_main: Face identifier ready.
+2026-07-10 15:45:45,719 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-10 15:45:46,301 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-10 15:47:02,577 [INFO] multi_main: [cam_cs1] [MATCH] Track 1 -> Chien (person_id=1783055832, 0.740)
+2026-07-10 15:47:26,896 [INFO] multi_main: [cam_cs1] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 15:51:48,387 [INFO] multi_main: [cam_cs1] [SKIP-DUP] Track 10 -> Chien (person_id=1783055832) đã ghi DB gần đây -> bỏ qua
+2026-07-10 15:59:58,820 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 18 (0.000)
+2026-07-10 15:59:58,821 [WARNING] multi_main: [cam_cs1] Không detect được mặt trong track 18 -> tạm lưu ảnh toàn thân
+2026-07-10 16:00:46,075 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-10 16:32:39,751 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 16:32:41,636 [INFO] multi_main: Face identifier ready.
+2026-07-10 16:32:41,712 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 16:32:41,895 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 16:32:49,708 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-10 16:32:49,902 [INFO] multi_main: [webcam] [MATCH] Track 1 -> chien (person_id=1783048741, is_in=True, 0.601)
+2026-07-10 16:33:16,796 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 16:33:18,463 [INFO] multi_main: Face identifier ready.
+2026-07-10 16:33:18,551 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-10 16:33:18,735 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 16:33:25,416 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.683)
+2026-07-10 16:34:00,323 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 16:34:02,038 [INFO] multi_main: Face identifier ready.
+2026-07-10 16:34:02,081 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-10 16:34:02,265 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 16:34:17,220 [INFO] multi_main: [webcam] [MATCH] Track 1 -> chien (person_id=1783048741, is_in=True, 0.721)
+2026-07-10 16:34:27,477 [INFO] multi_main: [webcam] [MATCH] Track 2 -> Chien (person_id=1783055832, is_in=True, 0.754)
+2026-07-10 16:34:43,636 [INFO] multi_main: [webcam] [SKIP-DUP] Track 3 -> Chien (person_id=1783055832, is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-10 16:34:53,906 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832, is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-10 16:35:03,889 [INFO] multi_main: [webcam] [SKIP-DUP] Track 7 -> chien (person_id=1783048741, is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-10 16:56:16,975 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 16:56:19,013 [INFO] multi_main: Face identifier ready.
+2026-07-10 16:56:19,031 [INFO] multi_main: [RecognitionWorker] Preload 0 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-10 16:56:19,078 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-10 16:56:19,261 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 16:56:28,044 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-10 16:56:28,223 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.728)
+2026-07-10 16:56:38,798 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 16:56:40,735 [INFO] multi_main: Face identifier ready.
+2026-07-10 16:56:40,750 [INFO] multi_main: [RecognitionWorker] Preload 1 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-10 16:56:40,801 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-10 16:56:40,985 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 16:56:48,598 [INFO] multi_main: [webcam] [SKIP-DUP] Track 1 -> Chien (person_id=1783055832, is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-10 16:56:57,715 [INFO] multi_main: [webcam] [SKIP-DUP] Track 3 -> Chien (person_id=1783055832, is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-10 16:57:04,160 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-10 16:57:04,351 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832, is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-10 22:09:34,365 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 22:09:35,645 [INFO] multi_main: Face identifier ready.
+2026-07-10 22:09:35,655 [INFO] multi_main: [RecognitionWorker] Preload 0 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-10 22:09:35,694 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-10 22:09:35,879 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 22:09:43,480 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.481)
+2026-07-10 22:09:49,970 [INFO] multi_main: [webcam] [SKIP-DUP] Track 1 -> Chien (person_id=1783055832, is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-10 22:10:01,277 [INFO] multi_main: [webcam] [SKIP-DUP] Track 4 -> Chien (person_id=1783055832, is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-10 22:10:12,592 [INFO] multi_main: [webcam] [SKIP-DUP] Track 1 -> Chien (person_id=1783055832, is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-10 22:10:12,657 [INFO] multi_main: [webcam] [UNKNOWN] Track 5 (0.000)
+2026-07-10 22:10:12,658 [WARNING] multi_main: [webcam] Không detect được mặt trong track 5 -> tạm lưu ảnh toàn thân
+2026-07-10 22:10:13,894 [INFO] multi_main: [webcam] [UNKNOWN] Track 7 (0.000)
+2026-07-10 22:10:13,895 [WARNING] multi_main: [webcam] Không detect được mặt trong track 7 -> tạm lưu ảnh toàn thân
+2026-07-10 22:10:28,042 [INFO] multi_main: [webcam] [SKIP-DUP] Track 8 -> Chien (person_id=1783055832, is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-10 22:10:54,557 [INFO] multi_main: [webcam] [SKIP-DUP] Track 9 -> Chien (person_id=1783055832, is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-10 22:11:02,469 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-10 22:11:02,502 [INFO] multi_main: [webcam] [SKIP-DUP] Track 10 -> Chien (person_id=1783055832, is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-10 22:25:26,318 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-10 22:25:27,541 [INFO] multi_main: Face identifier ready.
+2026-07-10 22:25:27,551 [INFO] multi_main: [RecognitionWorker] Preload 0 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-10 22:25:27,580 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-10 22:25:27,764 [INFO] multi_main: [webcam] Pipeline running
+2026-07-10 22:25:51,112 [INFO] multi_main: [webcam] [MATCH] Track 2 -> Chien (person_id=1783055832, is_in=True, 0.646)
+2026-07-13 14:11:34,052 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-13 14:11:35,679 [INFO] multi_main: Face identifier ready.
+2026-07-13 14:11:35,680 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-13 14:11:35,692 [INFO] multi_main: [RecognitionWorker] Preload 1 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-13 14:11:35,757 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-13 14:11:36,632 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-13 14:12:05,099 [INFO] multi_main: [cam_cs1] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.669)
+2026-07-13 14:12:20,102 [INFO] multi_main: [cam_cs1] [SKIP-DUP] -> Chien (is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-13 14:13:08,290 [INFO] multi_main: [cam_cs1] [MATCH] Track 6 -> Chien (person_id=1783055832, is_in=True, 0.733)
+2026-07-13 14:13:23,294 [INFO] multi_main: [cam_cs1] [SKIP-DUP] -> Chien (is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-13 14:13:26,772 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 8 -> unk_38fc952749 (is_in=True, 0.326)
+2026-07-13 14:13:27,079 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 9 -> unk_38fc952749 (is_in=True, 0.278)
+2026-07-13 14:13:27,657 [INFO] multi_main: [cam_cs1] [UNKNOWN] Track 10 -> unk_38fc952749 (is_in=True, 0.343)
+2026-07-13 14:32:00,305 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-13 14:32:01,985 [INFO] multi_main: Face identifier ready.
+2026-07-13 14:32:01,986 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-13 14:32:01,998 [INFO] multi_main: [RecognitionWorker] Preload 0 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-13 14:32:02,037 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-13 14:32:02,595 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-13 14:32:43,249 [INFO] multi_main: [cam_cs1] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.532)
+2026-07-13 14:33:01,080 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-13 14:36:54,710 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-13 14:36:59,494 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-13 14:37:01,335 [INFO] multi_main: Face identifier ready.
+2026-07-13 14:37:01,336 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-13 14:37:01,346 [INFO] multi_main: [RecognitionWorker] Preload 1 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-13 14:37:01,429 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-13 14:37:01,948 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-13 14:37:06,880 [INFO] multi_main: [cam_cs1] Pipeline stopped
+2026-07-13 15:12:33,036 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-13 15:12:34,445 [INFO] multi_main: Face identifier ready.
+2026-07-13 15:12:34,445 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-13 15:12:34,454 [INFO] multi_main: [RecognitionWorker] Preload 1 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-13 15:12:34,528 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-13 15:12:34,711 [INFO] multi_main: [webcam] Pipeline running
+2026-07-13 15:12:35,017 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-13 15:19:46,141 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-13 15:19:47,915 [INFO] multi_main: Face identifier ready.
+2026-07-13 15:19:47,916 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-13 15:19:47,930 [INFO] multi_main: [RecognitionWorker] Preload 1 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-13 15:19:48,006 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-13 15:19:48,190 [INFO] multi_main: [webcam] Pipeline running
+2026-07-13 15:19:48,601 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-14 08:11:02,691 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 08:11:04,062 [INFO] multi_main: Face identifier ready.
+2026-07-14 08:11:04,062 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 08:11:04,099 [INFO] multi_main: [RecognitionWorker] Preload 0 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 08:11:04,178 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 08:11:04,361 [INFO] multi_main: [webcam] Pipeline running
+2026-07-14 08:11:23,891 [INFO] multi_main: [webcam] [UNKNOWN] Track 4 (0.000)
+2026-07-14 08:11:23,892 [WARNING] multi_main: [webcam] Không detect được mặt -> tạm lưu ảnh toàn thân
+2026-07-14 08:11:32,817 [INFO] multi_main: [webcam] [UNKNOWN] Track 15 -> unk_a3cda57cf8 (is_in=False, 0.299)
+2026-07-14 08:11:33,007 [INFO] multi_main: [webcam] [UNKNOWN] Track 12 (0.000)
+2026-07-14 08:11:33,007 [WARNING] multi_main: [webcam] Không detect được mặt -> tạm lưu ảnh toàn thân
+2026-07-14 08:11:34,192 [WARNING] multi_main: [cam_cs1] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-14 08:11:34,193 [INFO] multi_main: [cam_cs1] Pipeline running
+2026-07-14 08:11:37,190 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=False, 0.701)
+2026-07-14 08:11:41,039 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-14 08:11:41,263 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=False, 0.755)
+2026-07-14 08:11:41,263 [INFO] multi_main: [webcam] [SKIP-DUP] -> Chien (is_in=False) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 15:56:29,816 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 15:56:31,082 [INFO] multi_main: Face identifier ready.
+2026-07-14 15:56:31,082 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 15:56:31,090 [INFO] multi_main: [RecognitionWorker] Preload 1 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 15:56:31,152 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 15:56:31,656 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 15:56:32,614 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 16:29:46,430 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 16:29:47,996 [INFO] multi_main: Face identifier ready.
+2026-07-14 16:29:47,996 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 16:29:48,003 [INFO] multi_main: [RecognitionWorker] Preload 2 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 16:29:48,088 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 16:29:48,660 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 16:29:49,632 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 16:29:51,875 [INFO] multi_main: [cam_cs1_out] Pipeline stopped
+2026-07-14 16:29:51,918 [INFO] multi_main: [cam_cs1_in] Pipeline stopped
+2026-07-14 16:30:14,786 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 16:30:16,101 [INFO] multi_main: Face identifier ready.
+2026-07-14 16:30:16,101 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 16:30:16,108 [INFO] multi_main: [RecognitionWorker] Preload 2 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 16:30:16,162 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 16:30:16,746 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 16:30:17,711 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 16:30:52,740 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 3 (0.000)
+2026-07-14 16:30:52,741 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt -> tạm lưu ảnh toàn thân
+2026-07-14 16:30:53,365 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 4 (0.000)
+2026-07-14 16:30:53,365 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt -> tạm lưu ảnh toàn thân
+2026-07-14 16:30:54,549 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 5 (0.000)
+2026-07-14 16:30:54,550 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt -> tạm lưu ảnh toàn thân
+2026-07-14 16:30:56,594 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 6 (0.000)
+2026-07-14 16:30:56,606 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt -> tạm lưu ảnh toàn thân
+2026-07-14 16:31:06,722 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 6 (0.000)
+2026-07-14 16:31:06,724 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt -> tạm lưu ảnh toàn thân
+2026-07-14 16:31:31,001 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 6 (0.000)
+2026-07-14 16:31:31,001 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt -> tạm lưu ảnh toàn thân
+2026-07-14 16:31:32,966 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 7 (0.000)
+2026-07-14 16:31:32,967 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt -> tạm lưu ảnh toàn thân
+2026-07-14 16:32:29,006 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 16:32:30,678 [INFO] multi_main: Face identifier ready.
+2026-07-14 16:32:30,678 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 16:32:30,686 [INFO] multi_main: [RecognitionWorker] Preload 2 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 16:32:30,754 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 16:32:31,307 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 16:32:32,293 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 16:47:09,928 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 16:47:10,999 [INFO] multi_main: Face identifier ready.
+2026-07-14 16:47:11,000 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 16:47:11,008 [INFO] multi_main: [RecognitionWorker] Preload 2 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 16:47:11,055 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 16:47:11,571 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 16:47:12,541 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 16:59:08,324 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 16:59:09,732 [INFO] multi_main: Face identifier ready.
+2026-07-14 16:59:09,732 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 16:59:09,740 [INFO] multi_main: [RecognitionWorker] Preload 2 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 16:59:09,806 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 16:59:10,581 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 16:59:11,646 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 16:59:42,087 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 16:59:43,377 [INFO] multi_main: Face identifier ready.
+2026-07-14 16:59:43,378 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 16:59:43,384 [INFO] multi_main: [RecognitionWorker] Preload 2 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 16:59:43,453 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 16:59:44,577 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 16:59:45,654 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 17:00:08,464 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=False, 0.643)
+2026-07-14 17:00:23,477 [INFO] multi_main: [cam_cs1_out] [SKIP-DUP] -> Chien (is_in=False) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 17:00:26,365 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 4 -> unk_318ea1a335 (is_in=False, 0.404)
+2026-07-14 17:01:22,071 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 6 -> Chien (person_id=1783055832, is_in=True, 0.643)
+2026-07-14 17:01:37,073 [INFO] multi_main: [cam_cs1_in] [SKIP-DUP] -> Chien (is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 17:01:55,899 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 2 -> unk_ca6fdfadde (is_in=True, 0.284)
+2026-07-14 17:01:56,221 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 9 -> Chien (person_id=1783055832, is_in=True, 0.652)
+2026-07-14 17:02:11,253 [INFO] multi_main: [cam_cs1_in] [SKIP-DUP] -> Chien (is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 17:02:27,478 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 14 -> Chien (person_id=1783055832, is_in=True, 0.679)
+2026-07-14 17:02:28,331 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 11 -> Chien (person_id=1783055832, is_in=True, 0.740)
+2026-07-14 17:02:32,363 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 33 -> Chien (person_id=1783055832, is_in=False, 0.532)
+2026-07-14 17:02:32,365 [INFO] multi_main: [CROSS-CAM] identity=1783055832: 'cam_cs1_out' và 'cam_cs1_in' cùng thấy trong 15s -> chọn 'cam_cs1_in' (biến mất trước, is_in=True) làm hướng thật, bỏ qua 'cam_cs1_out'
+2026-07-14 17:02:32,366 [INFO] multi_main: [cam_cs1_in] [SKIP-DUP] -> Chien (is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 17:02:41,122 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 21 (0.000)
+2026-07-14 17:02:41,122 [WARNING] multi_main: [cam_cs1_in] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:02:43,687 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 32 (0.000)
+2026-07-14 17:02:43,687 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:02:48,363 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 39 (0.000)
+2026-07-14 17:02:48,363 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:03:27,884 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 43 (0.000)
+2026-07-14 17:03:27,885 [WARNING] multi_main: [cam_cs1_in] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:03:31,250 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 25 -> unk_ca6fdfadde (is_in=True, 0.245)
+2026-07-14 17:03:41,282 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 17:03:43,037 [INFO] multi_main: Face identifier ready.
+2026-07-14 17:03:43,038 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 17:03:43,046 [INFO] multi_main: [RecognitionWorker] Preload 4 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 17:03:43,126 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 17:03:43,654 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 17:03:44,636 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 17:10:09,349 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 17:10:10,525 [INFO] multi_main: Face identifier ready.
+2026-07-14 17:10:10,526 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 17:10:10,534 [INFO] multi_main: [RecognitionWorker] Preload 4 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 17:10:10,584 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 17:10:11,117 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 17:10:12,083 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 17:12:42,046 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 17:12:43,139 [INFO] multi_main: Face identifier ready.
+2026-07-14 17:12:43,139 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 17:12:43,147 [INFO] multi_main: [RecognitionWorker] Preload 4 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 17:12:43,198 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 17:12:43,712 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 17:12:44,664 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 17:13:33,652 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 17:13:35,232 [INFO] multi_main: Face identifier ready.
+2026-07-14 17:13:35,233 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 17:13:35,247 [INFO] multi_main: [RecognitionWorker] Preload 4 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 17:13:35,301 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 17:13:36,266 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 17:13:37,631 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 17:15:03,363 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 6 (0.000)
+2026-07-14 17:15:03,367 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:15:27,081 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 9 (0.000)
+2026-07-14 17:15:27,082 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:15:42,753 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 12 (0.000)
+2026-07-14 17:15:42,753 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:16:28,879 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 3 -> unk_1816880cf7 (is_in=True, 0.247)
+2026-07-14 17:17:17,769 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 14 (0.000)
+2026-07-14 17:17:17,770 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:18:00,596 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 18 (0.000)
+2026-07-14 17:18:00,597 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:19:01,171 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 2 -> unk_1816880cf7 (is_in=True, 0.223)
+2026-07-14 17:19:16,186 [INFO] multi_main: [cam_cs1_in] [SKIP-DUP] -> người lạ (unk_1816880cf7) (is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 17:19:21,847 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 22 -> Chien (person_id=1783055832, is_in=True, 0.724)
+2026-07-14 17:19:36,850 [INFO] multi_main: [cam_cs1_in] [SKIP-DUP] -> Chien (is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 17:19:55,857 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 24 (0.000)
+2026-07-14 17:19:55,859 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:20:53,983 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 29 (0.000)
+2026-07-14 17:20:53,989 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:21:53,299 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 38 (0.000)
+2026-07-14 17:21:53,314 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:22:13,598 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 36 (0.000)
+2026-07-14 17:22:13,599 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:23:13,252 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 42 (0.000)
+2026-07-14 17:23:13,255 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:24:15,983 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 17:24:18,096 [INFO] multi_main: Face identifier ready.
+2026-07-14 17:24:18,097 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 17:24:18,108 [INFO] multi_main: [RecognitionWorker] Preload 5 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 17:24:18,200 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 17:24:18,850 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 17:24:19,940 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 17:24:40,433 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 1 (0.000)
+2026-07-14 17:24:40,433 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:24:43,135 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 2 (0.000)
+2026-07-14 17:24:43,136 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:24:58,947 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.625)
+2026-07-14 17:25:13,952 [INFO] multi_main: [cam_cs1_in] [SKIP-DUP] -> Chien (is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 17:26:06,567 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 17:26:08,004 [INFO] multi_main: Face identifier ready.
+2026-07-14 17:26:08,005 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 17:26:08,019 [INFO] multi_main: [RecognitionWorker] Preload 5 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 17:26:08,083 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 17:26:08,662 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 17:26:09,723 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 17:26:38,706 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 2 (0.000)
+2026-07-14 17:26:38,707 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:26:42,068 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 3 -> unk_2214338e40 (is_in=False, 0.074)
+2026-07-14 17:26:45,917 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.697)
+2026-07-14 17:26:59,276 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 11 -> unk_30d008988b (is_in=False, 0.140)
+2026-07-14 17:27:00,644 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 10 -> Chien (person_id=1783055832, is_in=False, 0.503)
+2026-07-14 17:27:00,646 [INFO] multi_main: [CROSS-CAM] identity=1783055832: 'cam_cs1_out' và 'cam_cs1_in' cùng thấy trong 15s -> chọn 'cam_cs1_in' (biến mất trước, is_in=True) làm hướng thật, bỏ qua 'cam_cs1_out'
+2026-07-14 17:27:00,647 [INFO] multi_main: [cam_cs1_in] [SKIP-DUP] -> Chien (is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 17:27:01,937 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 13 -> unk_ddc8fa5a96 (is_in=False, 0.132)
+2026-07-14 17:27:04,190 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 14 -> Chien (person_id=1783055832, is_in=False, 0.581)
+2026-07-14 17:27:19,566 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 15 -> Chien (person_id=1783055832, is_in=True, 0.686)
+2026-07-14 17:27:19,566 [INFO] multi_main: [CROSS-CAM] identity=1783055832: 'cam_cs1_in' và 'cam_cs1_out' cùng thấy trong 15s -> chọn 'cam_cs1_out' (biến mất trước, is_in=False) làm hướng thật, bỏ qua 'cam_cs1_in'
+2026-07-14 17:27:19,567 [INFO] multi_main: [cam_cs1_out] [SKIP-DUP] -> Chien (is_in=False) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 17:27:20,322 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 16 -> Chien (person_id=1783055832, is_in=True, 0.562)
+2026-07-14 17:27:35,326 [INFO] multi_main: [cam_cs1_in] [SKIP-DUP] -> Chien (is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 17:28:13,428 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 21 (0.000)
+2026-07-14 17:28:13,430 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:28:21,387 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 23 -> unk_c7c31be663 (is_in=False, 0.409)
+2026-07-14 17:28:52,800 [INFO] multi_main: [cam_cs1_in] Pipeline stopped
+2026-07-14 17:28:52,823 [INFO] multi_main: [cam_cs1_out] Pipeline stopped
+2026-07-14 17:28:53,018 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 19 -> Chien (person_id=1783055832, is_in=False, 0.715)
+2026-07-14 17:29:05,435 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-14 17:29:07,510 [INFO] multi_main: Face identifier ready.
+2026-07-14 17:29:07,510 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-14 17:29:07,525 [INFO] multi_main: [RecognitionWorker] Preload 9 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-14 17:29:07,609 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-14 17:29:08,753 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-14 17:29:09,863 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-14 17:29:53,757 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 5 (0.000)
+2026-07-14 17:29:53,758 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:29:56,566 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 2 -> Chien (person_id=1783055832, is_in=False, 0.600)
+2026-07-14 17:30:11,570 [INFO] multi_main: [cam_cs1_out] [SKIP-DUP] -> Chien (is_in=False) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 17:30:30,410 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 10 -> unk_6a3acb25d1 (is_in=False, 0.387)
+2026-07-14 17:30:36,854 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 8 -> Chien (person_id=1783055832, is_in=True, 0.637)
+2026-07-14 17:30:37,422 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 9 -> Chien (person_id=1783055832, is_in=True, 0.628)
+2026-07-14 17:30:38,508 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 15 (0.000)
+2026-07-14 17:30:38,513 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:30:40,887 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 19 -> Chien (person_id=1783055832, is_in=False, 0.464)
+2026-07-14 17:30:40,889 [INFO] multi_main: [CROSS-CAM] identity=1783055832: 'cam_cs1_out' và 'cam_cs1_in' cùng thấy trong 15s -> chọn 'cam_cs1_in' (biến mất trước, is_in=True) làm hướng thật, bỏ qua 'cam_cs1_out'
+2026-07-14 17:30:40,890 [INFO] multi_main: [cam_cs1_in] [SKIP-DUP] -> Chien (is_in=True) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-14 17:30:41,900 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 23 -> unk_ff24527c60 (is_in=False, 0.329)
+2026-07-14 17:39:14,917 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 36 -> unk_cbe43feb8a (is_in=False, 0.254)
+2026-07-14 17:39:27,513 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 39 -> Chien (person_id=1783055832, is_in=False, 0.572)
+2026-07-14 17:39:31,893 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 47 -> unk_5e86a785e0 (is_in=False, 0.314)
+2026-07-14 17:39:33,900 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 46 (0.000)
+2026-07-14 17:39:33,902 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:39:38,709 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 48 (0.000)
+2026-07-14 17:39:38,710 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-14 17:39:40,385 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 50 -> unk_6a3acb25d1 (is_in=False, 0.439)
+2026-07-14 17:39:43,390 [INFO] multi_main: [cam_cs1_out] [SKIP-DUP] -> Chien (is_in=False) đã ghi DB gần đây theo hướng này -> bỏ qua
+2026-07-16 13:53:31,812 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-16 13:53:34,023 [INFO] multi_main: Face identifier ready.
+2026-07-16 13:53:34,024 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-16 13:53:34,033 [INFO] multi_main: [RecognitionWorker] Preload 0 trạng thái dedup theo camera gần đây từ DB (cooldown=300s)
+2026-07-16 13:53:34,114 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-16 13:53:37,214 [WARNING] multi_main: [cam_cs1_in] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-16 13:53:37,215 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-16 13:55:16,061 [INFO] multi_main: [cam_cs1_in] Pipeline stopped
+2026-07-16 13:55:16,192 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.673)
+2026-07-16 13:58:32,368 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-16 13:58:33,868 [INFO] multi_main: Face identifier ready.
+2026-07-16 13:58:33,868 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-16 13:58:33,884 [INFO] multi_main: [RecognitionWorker] Preload 0 trạng thái dedup theo camera gần đây từ DB (cooldown=300s)
+2026-07-16 13:58:33,954 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-16 13:58:48,254 [WARNING] multi_main: [cam_cs1_in] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-16 13:58:48,255 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-16 14:01:18,830 [INFO] multi_main: [cam_cs1_in] Pipeline stopped
+2026-07-16 14:11:57,346 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-16 14:11:58,669 [INFO] multi_main: Face identifier ready.
+2026-07-16 14:11:58,670 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-16 14:11:58,676 [INFO] multi_main: [RecognitionWorker] Preload 0 trạng thái dedup theo camera gần đây từ DB (cooldown=300s)
+2026-07-16 14:11:58,741 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-16 14:12:01,790 [WARNING] multi_main: [cam_cs1_in] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-16 14:12:01,790 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-16 14:12:01,796 [WARNING] multi_main: [cam_cs1_out] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-16 14:12:01,797 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-16 14:14:04,098 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-16 14:14:05,368 [INFO] multi_main: Face identifier ready.
+2026-07-16 14:14:05,368 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-16 14:14:05,374 [INFO] multi_main: [RecognitionWorker] Preload 0 trạng thái dedup theo camera gần đây từ DB (cooldown=300s)
+2026-07-16 14:14:05,434 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-16 14:14:08,511 [WARNING] multi_main: [cam_cs1_in] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-16 14:14:08,512 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-16 14:14:09,053 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-16 14:15:20,601 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 1 (0.000)
+2026-07-16 14:15:20,602 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 14:15:48,120 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 2 -> Chien (person_id=1783055832, is_in=False, 0.557)
+2026-07-16 14:16:48,209 [INFO] multi_main: Save to database success Chien
+2026-07-16 14:17:59,811 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 9 (0.000)
+2026-07-16 14:17:59,812 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 14:18:01,659 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 10 -> Chien (person_id=1783055832, is_in=False, 0.693)
+2026-07-16 14:18:04,068 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 11 -> unk_cc2e035f7b (is_in=False, 0.239)
+2026-07-16 14:18:09,136 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 7 -> Chien (person_id=1783055832, is_in=False, 0.681)
+2026-07-16 14:18:09,744 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 14 -> Chien (person_id=1783055832, is_in=False, 0.516)
+2026-07-16 14:18:10,262 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 13 -> Chien (person_id=1783055832, is_in=False, 0.622)
+2026-07-16 14:19:02,280 [INFO] multi_main: [cam_cs1_out] [SKIP-DUP] -> Chien đã ghi DB gần đây TẠI CHÍNH CAMERA NÀY -> bỏ qua
+2026-07-16 14:19:04,314 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 14:26:15,105 [INFO] multi_main: [cam_cs1_out] Pipeline stopped
+2026-07-16 14:26:15,530 [INFO] multi_main: [cam_cs1_out] [MATCH] Track 18 -> Chien (person_id=1783055832, is_in=False, 0.502)
+2026-07-16 14:26:15,597 [INFO] multi_main: [cam_cs1_in] Pipeline stopped
+2026-07-16 14:26:23,365 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-16 14:26:24,765 [INFO] multi_main: Face identifier ready.
+2026-07-16 14:26:24,765 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-16 14:26:24,774 [INFO] multi_main: [RecognitionWorker] Preload 2 trạng thái dedup theo camera gần đây từ DB (cooldown=300s)
+2026-07-16 14:26:24,820 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-16 14:26:25,305 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-16 14:26:47,356 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 1 -> unk_d4cd2058d2 (is_in=False, 0.211)
+2026-07-16 14:26:50,553 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 2 -> unk_7f7650f5a4 (is_in=False, 0.230)
+2026-07-16 14:27:12,584 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 3 -> unk_f7132253d0 (is_in=False, 0.203)
+2026-07-16 14:27:14,913 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 4 -> unk_aa47b7b204 (is_in=False, 0.399)
+2026-07-16 14:27:30,883 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 8 (0.000)
+2026-07-16 14:27:30,883 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 14:27:47,931 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 14:27:50,963 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 14:28:06,629 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 12 (0.000)
+2026-07-16 14:28:06,629 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 14:28:12,653 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 14:28:15,690 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 14:28:50,804 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 13 (0.000)
+2026-07-16 14:28:50,805 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 14:29:16,080 [INFO] multi_main: [cam_cs1_out] Pipeline stopped
+2026-07-16 14:29:16,244 [INFO] multi_main: [cam_cs1_out] [UNKNOWN] Track 16 (0.000)
+2026-07-16 14:29:16,244 [WARNING] multi_main: [cam_cs1_out] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 14:30:36,074 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-16 14:30:37,500 [INFO] multi_main: Face identifier ready.
+2026-07-16 14:30:37,500 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-16 14:30:37,510 [INFO] multi_main: [RecognitionWorker] Preload 6 trạng thái dedup theo camera gần đây từ DB (cooldown=300s)
+2026-07-16 14:30:37,548 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-16 14:30:38,148 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-16 14:31:10,676 [INFO] multi_main: [cam_cs1_in] Pipeline stopped
+2026-07-16 14:39:51,530 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-16 14:39:52,862 [INFO] multi_main: Face identifier ready.
+2026-07-16 14:39:52,862 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-16 14:39:52,872 [INFO] multi_main: [RecognitionWorker] Preload 6 trạng thái dedup theo camera gần đây từ DB (cooldown=300s)
+2026-07-16 14:39:52,923 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-16 14:39:53,435 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-16 14:39:54,597 [INFO] multi_main: [cam_cs1_out_real] Pipeline running
+2026-07-16 14:40:16,115 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 1 -> unk_bcf28c3e37 (is_in=False, 0.185)
+2026-07-16 14:40:16,608 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 5 -> unk_abde7e79a5 (is_in=False, 0.108)
+2026-07-16 14:40:16,781 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 4 (0.000)
+2026-07-16 14:40:16,783 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 14:40:18,076 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 3 -> unk_4e903d2b23 (is_in=False, 0.192)
+2026-07-16 14:40:42,007 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 7 -> unk_6da77d9a9c (is_in=False, 0.127)
+2026-07-16 14:41:01,524 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-16 14:41:02,796 [INFO] multi_main: Face identifier ready.
+2026-07-16 14:41:02,797 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-16 14:41:02,805 [INFO] multi_main: [RecognitionWorker] Preload 6 trạng thái dedup theo camera gần đây từ DB (cooldown=300s)
+2026-07-16 14:41:02,870 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-16 14:41:03,433 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-16 14:41:04,587 [INFO] multi_main: [cam_cs1_out_real] Pipeline running
+2026-07-16 14:41:23,053 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 2 (0.000)
+2026-07-16 14:41:23,055 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 14:41:26,486 [INFO] multi_main: [cam_cs1_out_real] Pipeline stopped
+2026-07-16 14:41:26,537 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 4 (0.000)
+2026-07-16 14:41:26,537 [WARNING] multi_main: [cam_cs1_in] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 14:41:26,557 [INFO] multi_main: [cam_cs1_in] Pipeline stopped
+2026-07-16 15:23:36,331 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-16 15:23:37,592 [INFO] multi_main: Face identifier ready.
+2026-07-16 15:23:37,592 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-16 15:23:37,601 [INFO] multi_main: [RecognitionWorker] Preload 6 trạng thái dedup theo camera gần đây từ DB (cooldown=300s)
+2026-07-16 15:23:37,667 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-16 15:23:38,219 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-16 15:23:39,361 [INFO] multi_main: [cam_cs1_out_real] Pipeline running
+2026-07-16 15:24:04,791 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 2 -> unk_533961241f (is_in=False, 0.221)
+2026-07-16 15:24:04,897 [INFO] multi_main: [cam_cs1_in] Pipeline stopped
+2026-07-16 15:24:04,961 [INFO] multi_main: [cam_cs1_out_real] Pipeline stopped
+2026-07-16 15:27:47,818 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-16 15:27:49,063 [INFO] multi_main: Face identifier ready.
+2026-07-16 15:27:49,063 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-16 15:27:49,074 [INFO] multi_main: [RecognitionWorker] Preload 6 trạng thái dedup theo camera gần đây từ DB (cooldown=300s)
+2026-07-16 15:27:49,142 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-16 15:27:50,574 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-16 15:27:51,712 [INFO] multi_main: [cam_cs1_out_real] Pipeline running
+2026-07-16 15:28:18,451 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 8 (0.000)
+2026-07-16 15:28:18,461 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:28:18,934 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 1 (0.000)
+2026-07-16 15:28:18,935 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:28:19,334 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 7 (0.000)
+2026-07-16 15:28:19,335 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:28:20,765 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 9 (0.000)
+2026-07-16 15:28:20,766 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:28:23,899 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 13 (0.000)
+2026-07-16 15:28:23,899 [WARNING] multi_main: [cam_cs1_in] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:28:24,457 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 14 -> Chien (person_id=1783055832, is_in=True, 0.567)
+2026-07-16 15:28:25,156 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 5 -> Chien (person_id=1783055832, is_in=True, 0.709)
+2026-07-16 15:29:10,458 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 18 (0.000)
+2026-07-16 15:29:10,460 [WARNING] multi_main: [cam_cs1_in] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:29:14,686 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 20 -> unk_f5684d51ba (is_in=True, 0.219)
+2026-07-16 15:29:24,741 [INFO] multi_main: Save to database success Chien
+2026-07-16 15:29:27,157 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 21 -> unk_a06ea54d83 (is_in=True, 0.395)
+2026-07-16 15:29:37,685 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 23 -> unk_a06ea54d83 (is_in=True, 0.364)
+2026-07-16 15:29:40,189 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 30 (0.000)
+2026-07-16 15:29:40,190 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:29:53,870 [INFO] multi_main: [cam_cs1_out_real] Pipeline stopped
+2026-07-16 15:29:53,960 [INFO] multi_main: [cam_cs1_in] Pipeline stopped
+2026-07-16 15:30:01,791 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-16 15:30:03,266 [INFO] multi_main: Face identifier ready.
+2026-07-16 15:30:03,266 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-16 15:30:03,275 [INFO] multi_main: [RecognitionWorker] Preload 7 trạng thái dedup theo camera gần đây từ DB (cooldown=300s)
+2026-07-16 15:30:03,332 [INFO] multi_main: 2 camera pipeline(s) started - Press Q to quit
+2026-07-16 15:30:03,757 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-16 15:30:04,920 [INFO] multi_main: [cam_cs1_out_real] Pipeline running
+2026-07-16 15:30:42,127 [INFO] multi_main: [cam_cs1_in] [MATCH] Track 3 -> Chien (person_id=1783055832, is_in=True, 0.686)
+2026-07-16 15:30:42,461 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 4 (0.000)
+2026-07-16 15:30:42,462 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:30:43,736 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 12 (0.000)
+2026-07-16 15:30:43,736 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:30:44,330 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 11 (0.000)
+2026-07-16 15:30:44,331 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:30:44,473 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 14 (0.000)
+2026-07-16 15:30:44,473 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:30:59,116 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 21 -> unk_09d34a4ddc (is_in=True, 0.342)
+2026-07-16 15:31:00,303 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 24 -> unk_09d34a4ddc (is_in=True, 0.360)
+2026-07-16 15:31:01,320 [INFO] multi_main: [cam_cs1_in] [UNKNOWN] Track 16 -> unk_09d34a4ddc (is_in=True, 0.378)
+2026-07-16 15:31:05,757 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 18 -> unk_deef6fdb22 (is_in=False, 0.128)
+2026-07-16 15:31:42,816 [INFO] multi_main: Save to database success Chien
+2026-07-16 15:31:59,850 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 15:32:05,875 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 15:34:01,532 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 30 (0.000)
+2026-07-16 15:34:01,533 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:34:01,883 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 31 (0.000)
+2026-07-16 15:34:01,884 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:34:02,576 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 34 (0.000)
+2026-07-16 15:34:02,577 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:34:12,479 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 40 (0.000)
+2026-07-16 15:34:12,480 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:34:12,865 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 39 (0.000)
+2026-07-16 15:34:12,866 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:34:15,683 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 38 -> unk_38995bf85a (is_in=False, 0.094)
+2026-07-16 15:34:17,676 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 41 (0.000)
+2026-07-16 15:34:17,677 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:34:19,913 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 43 -> unk_56f21da231 (is_in=False, 0.192)
+2026-07-16 15:34:20,405 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 44 (0.000)
+2026-07-16 15:34:20,405 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:34:21,057 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 45 -> unk_835b27a6f5 (is_in=False, 0.113)
+2026-07-16 15:34:24,997 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 51 (0.000)
+2026-07-16 15:34:24,997 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:34:45,507 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 47 -> unk_56f21da231 (is_in=False, 0.224)
+2026-07-16 15:34:45,543 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 52 (0.000)
+2026-07-16 15:34:45,544 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:35:16,578 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 15:35:20,601 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 15:35:21,870 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 15:41:47,012 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 53 (0.000)
+2026-07-16 15:41:47,023 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:42:10,611 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 53 (0.000)
+2026-07-16 15:42:10,611 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:43:52,850 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 53 (0.000)
+2026-07-16 15:43:52,850 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:49:18,894 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 55 -> unk_58b2a89fa6 (is_in=False, 0.185)
+2026-07-16 15:49:19,664 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 57 -> unk_c42378bfca (is_in=False, 0.163)
+2026-07-16 15:49:20,600 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 58 -> unk_38995bf85a (is_in=False, 0.120)
+2026-07-16 15:49:21,224 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 60 (0.000)
+2026-07-16 15:49:21,224 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:49:21,768 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 61 (0.000)
+2026-07-16 15:49:21,770 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:49:25,808 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 63 (0.000)
+2026-07-16 15:49:25,808 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:50:05,551 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 67 -> unk_2bb8cf97cd (is_in=False, 0.099)
+2026-07-16 15:50:06,230 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 69 -> unk_a810f8dc7a (is_in=False, 0.176)
+2026-07-16 15:50:06,735 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 70 -> unk_6e4b07a638 (is_in=False, 0.177)
+2026-07-16 15:50:07,321 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 73 (0.000)
+2026-07-16 15:50:07,322 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:50:09,817 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 74 (0.000)
+2026-07-16 15:50:09,818 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 15:50:19,853 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 15:50:19,883 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 15:50:20,917 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 15:51:05,961 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 15:51:06,991 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 15:51:07,018 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 15:52:42,705 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 77 (0.000)
+2026-07-16 15:52:42,707 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:15:57,834 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-16 17:15:59,476 [INFO] multi_main: Face identifier ready.
+2026-07-16 17:15:59,477 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-16 17:15:59,495 [INFO] multi_main: [RecognitionWorker] Preload 50 trạng thái dedup theo camera gần đây từ DB (cooldown=300s)
+2026-07-16 17:15:59,738 [INFO] multi_main: 4 camera pipeline(s) started - Press Q to quit
+2026-07-16 17:16:02,710 [WARNING] multi_main: [cam_cs1_in] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-16 17:16:02,710 [INFO] multi_main: [cam_cs1_in] Pipeline running
+2026-07-16 17:16:05,782 [WARNING] multi_main: [cam_cs1_out] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-16 17:16:05,782 [INFO] multi_main: [cam_cs1_out] Pipeline running
+2026-07-16 17:16:06,938 [INFO] multi_main: [cam_cs1_in_real] Pipeline running
+2026-07-16 17:16:11,153 [INFO] multi_main: [cam_cs1_out_real] Pipeline running
+2026-07-16 17:16:36,893 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 1 (0.000)
+2026-07-16 17:16:36,893 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:18:05,769 [INFO] multi_main: [cam_cs1_in_real] [MATCH] Track 5 -> Chien (person_id=1783055832, is_in=False, 0.505)
+2026-07-16 17:18:08,499 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 10 (0.000)
+2026-07-16 17:18:08,499 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:18:11,822 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 17 (0.000)
+2026-07-16 17:18:11,822 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:18:13,151 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 15 (0.000)
+2026-07-16 17:18:13,152 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:18:13,642 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 2 -> unk_5601217cc2 (is_in=False, 0.310)
+2026-07-16 17:18:15,994 [INFO] multi_main: [cam_cs1_in_real] [MATCH] Track 18 -> Chien (person_id=1783055832, is_in=False, 0.535)
+2026-07-16 17:18:32,539 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 18 (0.000)
+2026-07-16 17:18:32,540 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:19:06,579 [INFO] multi_main: Save to database success Chien
+2026-07-16 17:19:14,604 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:19:56,047 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 20 (0.000)
+2026-07-16 17:19:56,047 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:20:10,499 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 20 (0.000)
+2026-07-16 17:20:10,499 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:20:33,407 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 20 (0.000)
+2026-07-16 17:20:33,407 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:20:52,836 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 20 (0.000)
+2026-07-16 17:20:52,837 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:21:32,812 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 21 -> unk_8f98fa88c9 (is_in=False, 0.199)
+2026-07-16 17:21:33,304 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 22 (0.000)
+2026-07-16 17:21:33,305 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:21:33,826 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 23 -> unk_a988bc8a09 (is_in=False, 0.063)
+2026-07-16 17:21:33,922 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 26 (0.000)
+2026-07-16 17:21:33,922 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:21:34,028 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 25 (0.000)
+2026-07-16 17:21:34,028 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:21:38,458 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 28 (0.000)
+2026-07-16 17:21:38,459 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:21:42,637 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 31 (0.000)
+2026-07-16 17:21:42,638 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:21:43,892 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 24 (0.000)
+2026-07-16 17:21:43,892 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:22:07,971 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 35 (0.000)
+2026-07-16 17:22:07,972 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:22:10,092 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 40 (0.000)
+2026-07-16 17:22:10,093 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:22:15,495 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 42 (0.000)
+2026-07-16 17:22:15,496 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:22:30,029 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 46 -> unk_f5d7db2181 (is_in=False, 0.151)
+2026-07-16 17:22:30,925 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 49 (0.000)
+2026-07-16 17:22:30,926 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:22:32,950 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:22:33,974 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:22:35,094 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 51 (0.000)
+2026-07-16 17:22:35,095 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:22:40,840 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 50 -> unk_c77db0bf04 (is_in=False, 0.150)
+2026-07-16 17:22:40,917 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 55 (0.000)
+2026-07-16 17:22:40,917 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:22:41,020 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 59 (0.000)
+2026-07-16 17:22:41,021 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:22:46,753 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 62 (0.000)
+2026-07-16 17:22:46,755 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:01,451 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 67 (0.000)
+2026-07-16 17:23:01,452 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:30,476 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:23:31,370 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 76 (0.000)
+2026-07-16 17:23:31,370 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:32,217 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 72 -> unk_b64fdacbfb (is_in=False, 0.185)
+2026-07-16 17:23:32,977 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 73 -> unk_ae9e822a22 (is_in=False, 0.115)
+2026-07-16 17:23:33,014 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 81 (0.000)
+2026-07-16 17:23:33,015 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:33,800 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 75 -> unk_20c4f3c66b (is_in=False, 0.200)
+2026-07-16 17:23:35,520 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 52 -> unk_aa3d5b2484 (is_in=False, 0.238)
+2026-07-16 17:23:35,931 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 64 (0.000)
+2026-07-16 17:23:35,933 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:36,207 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 88 (0.000)
+2026-07-16 17:23:36,208 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:36,523 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 84 (0.000)
+2026-07-16 17:23:36,523 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:36,794 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 78 (0.000)
+2026-07-16 17:23:36,795 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:36,964 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 86 (0.000)
+2026-07-16 17:23:36,965 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:37,288 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 82 (0.000)
+2026-07-16 17:23:37,289 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:38,010 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 90 (0.000)
+2026-07-16 17:23:38,011 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:39,225 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 99 (0.000)
+2026-07-16 17:23:39,226 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:40,333 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 87 (0.000)
+2026-07-16 17:23:40,334 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:41,356 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:23:44,054 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 94 (0.000)
+2026-07-16 17:23:44,055 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:44,849 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 96 (0.000)
+2026-07-16 17:23:44,851 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:47,449 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 93 -> unk_1e47743902 (is_in=False, 0.257)
+2026-07-16 17:23:48,323 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 97 (0.000)
+2026-07-16 17:23:48,324 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:23:48,977 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 102 (0.000)
+2026-07-16 17:23:48,978 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:24:32,131 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 103 (0.000)
+2026-07-16 17:24:32,132 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:24:33,154 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:24:33,173 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:24:34,192 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:24:36,212 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:24:48,234 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:24:56,527 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 104 (0.000)
+2026-07-16 17:24:56,527 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:26:28,042 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 117 -> unk_3b260ebc61 (is_in=False, 0.170)
+2026-07-16 17:26:28,294 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 120 (0.000)
+2026-07-16 17:26:28,294 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:26:35,030 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 121 (0.000)
+2026-07-16 17:26:35,031 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:26:35,397 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 119 (0.000)
+2026-07-16 17:26:35,398 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:26:36,028 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 111 -> unk_6c5d1a10a2 (is_in=False, 0.040)
+2026-07-16 17:26:36,241 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 118 (0.000)
+2026-07-16 17:26:36,241 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:26:39,052 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 123 (0.000)
+2026-07-16 17:26:39,053 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:26:39,695 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 127 (0.000)
+2026-07-16 17:26:39,695 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:26:44,126 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 129 -> unk_70b15ff13a (is_in=False, 0.109)
+2026-07-16 17:26:45,219 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 131 (0.000)
+2026-07-16 17:26:45,220 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:26:46,690 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 128 (0.000)
+2026-07-16 17:26:46,692 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:26:55,007 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 132 (0.000)
+2026-07-16 17:26:55,008 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:27:05,013 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 134 (0.000)
+2026-07-16 17:27:05,014 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:27:07,547 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 133 -> unk_86a41db685 (is_in=False, 0.221)
+2026-07-16 17:27:19,101 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 148 (0.000)
+2026-07-16 17:27:19,102 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:27:28,128 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:27:30,271 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 158 (0.000)
+2026-07-16 17:27:30,271 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:27:31,353 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 159 (0.000)
+2026-07-16 17:27:31,354 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:27:36,406 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:27:41,657 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 163 -> unk_59f8aaecfe (is_in=False, 0.097)
+2026-07-16 17:27:44,137 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 164 (0.000)
+2026-07-16 17:27:44,138 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:27:44,161 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:27:45,398 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 166 (0.000)
+2026-07-16 17:27:45,400 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:27:51,998 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 155 -> unk_1e47743902 (is_in=False, 0.210)
+2026-07-16 17:28:07,607 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 177 (0.000)
+2026-07-16 17:28:07,608 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:28:07,629 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:28:09,207 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 179 (0.000)
+2026-07-16 17:28:09,207 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:28:09,985 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 182 -> unk_db36d52a24 (is_in=False, 0.170)
+2026-07-16 17:28:10,308 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 185 -> unk_ae9e822a22 (is_in=False, 0.110)
+2026-07-16 17:28:10,917 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 187 (0.000)
+2026-07-16 17:28:10,919 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:28:12,363 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 176 -> unk_dbe0be153a (is_in=False, 0.203)
+2026-07-16 17:28:12,575 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 181 (0.000)
+2026-07-16 17:28:12,576 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:28:12,627 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 184 (0.000)
+2026-07-16 17:28:12,628 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:28:13,935 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 170 -> unk_1e47743902 (is_in=False, 0.158)
+2026-07-16 17:28:13,935 [INFO] multi_main: [CROSS-CAM] identity=unk_1e47743902: 'cam_cs1_in_real' và 'cam_cs1_out_real' cùng thấy trong 60s -> chọn 'cam_cs1_out_real' (biến mất trước, is_in=False) làm hướng thật, bỏ qua 'cam_cs1_in_real'
+2026-07-16 17:28:13,962 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:28:14,239 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 175 (0.000)
+2026-07-16 17:28:14,240 [WARNING] multi_main: [cam_cs1_in_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:28:15,014 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 189 -> unk_ae9e822a22 (is_in=False, 0.169)
+2026-07-16 17:28:15,014 [INFO] multi_main: [CROSS-CAM] identity=unk_ae9e822a22: 'cam_cs1_out_real' và 'cam_cs1_in_real' cùng thấy trong 60s -> chọn 'cam_cs1_in_real' (biến mất trước, is_in=False) làm hướng thật, bỏ qua 'cam_cs1_out_real'
+2026-07-16 17:28:15,020 [INFO] multi_main: [cam_cs1_in_real] [SKIP-DUP] -> người lạ (unk_ae9e822a22) đã ghi DB gần đây TẠI CHÍNH CAMERA NÀY -> bỏ qua
+2026-07-16 17:28:22,266 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 191 -> unk_74a9931f24 (is_in=False, 0.123)
+2026-07-16 17:28:23,614 [INFO] multi_main: [cam_cs1_in_real] [UNKNOWN] Track 190 -> unk_6fa064e526 (is_in=False, 0.145)
+2026-07-16 17:28:26,257 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 196 (0.000)
+2026-07-16 17:28:26,257 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:28:42,310 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:29:10,360 [INFO] multi_main: Save to database success Người lạ
+2026-07-16 17:29:12,142 [INFO] multi_main: [cam_cs1_out_real] [UNKNOWN] Track 198 (0.000)
+2026-07-16 17:29:12,142 [WARNING] multi_main: [cam_cs1_out_real] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-16 17:29:13,163 [INFO] multi_main: Save to database success Người lạ
+2026-07-18 09:14:20,553 [ERROR] multi_main: [cam_cs1_out_real] [DB ERROR] Không lưu được event: operation cancelled
+2026-07-18 09:14:50,640 [ERROR] multi_main: [cam_cs1_in_real] [DB ERROR] Không lưu được event: 103.159.51.61:27017: [Errno 101] Network is unreachable (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a58af5d4a703dd39522c648, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 101] Network is unreachable (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-18 09:14:55,905 [INFO] multi_main: [cam_cs1_out_real] Pipeline stopped
+2026-07-18 09:16:04,536 [INFO] multi_main: [cam_cs1_in] Pipeline stopped
+2026-07-18 09:16:04,566 [INFO] multi_main: [cam_cs1_out] Pipeline stopped
+2026-07-18 09:16:04,975 [INFO] multi_main: [cam_cs1_in_real] Pipeline stopped
+2026-07-23 14:35:58,899 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-23 14:36:02,026 [INFO] multi_main: Face identifier ready.
+2026-07-23 14:36:02,027 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-23 14:36:02,070 [INFO] multi_main: [RecognitionWorker] Preload 0 trạng thái dedup gần đây từ DB (cooldown=300s)
+2026-07-23 14:36:02,196 [INFO] multi_main: 1 camera pipeline(s) started - Press Q to quit
+2026-07-23 14:36:02,382 [INFO] multi_main: [webcam] Pipeline running
+2026-07-23 14:36:27,348 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-23 14:36:27,576 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.749)
+2026-07-23 14:41:46,175 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-23 14:41:49,131 [INFO] multi_main: Face identifier ready.
+2026-07-23 14:41:49,132 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-23 14:41:49,237 [INFO] multi_main: 1 identity + 0 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 14:41:49,420 [INFO] multi_main: [webcam] Pipeline running
+2026-07-23 14:41:55,483 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.735)
+2026-07-23 14:41:55,551 [INFO] multi_main: Save to database success Chien
+2026-07-23 14:42:06,784 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-23 14:42:06,967 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.744)
+2026-07-23 14:42:07,011 [INFO] multi_main: Save to database success Chien
+2026-07-23 14:45:33,428 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-23 14:45:36,203 [INFO] multi_main: Face identifier ready.
+2026-07-23 14:45:36,203 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-23 14:45:36,308 [INFO] multi_main: 1 identity + 0 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 14:45:36,491 [INFO] multi_main: [webcam] Pipeline running
+2026-07-23 14:45:41,048 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-23 14:45:41,128 [INFO] multi_main: [webcam] [UNKNOWN] Track 1 (0.000)
+2026-07-23 14:45:41,128 [WARNING] multi_main: [webcam] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-23 15:26:36,319 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-23 15:26:38,975 [INFO] multi_main: Face identifier ready.
+2026-07-23 15:26:38,975 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-23 15:26:39,086 [INFO] multi_main: 2 identity + 0 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 15:26:39,246 [INFO] multi_main: [webcam] Pipeline running
+2026-07-23 15:26:42,190 [WARNING] multi_main: [cam_cs1_in_real] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-23 15:26:42,191 [INFO] multi_main: [cam_cs1_in_real] Pipeline running
+2026-07-23 15:27:01,070 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-23 15:27:01,221 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.484)
+2026-07-23 15:27:01,285 [INFO] multi_main: Save to database success Chien
+2026-07-23 15:27:02,358 [INFO] multi_main: [cam_cs1_in_real] Pipeline stopped
+2026-07-23 15:27:25,142 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-23 15:27:27,789 [INFO] multi_main: Face identifier ready.
+2026-07-23 15:27:27,790 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-23 15:27:27,924 [INFO] multi_main: 3 identity + 0 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 15:27:28,062 [INFO] multi_main: [webcam] Pipeline running
+2026-07-23 15:27:30,086 [INFO] multi_main: [cam_cs1_out_real] Pipeline running
+2026-07-23 15:27:33,135 [WARNING] multi_main: [cam_cs1_in_real] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-23 15:27:33,135 [INFO] multi_main: [cam_cs1_in_real] Pipeline running
+2026-07-23 15:27:37,812 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.479)
+2026-07-23 15:27:37,842 [INFO] multi_main: Save to database success Chien
+2026-07-23 15:27:40,204 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-23 15:27:40,359 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.476)
+2026-07-23 15:27:40,390 [INFO] multi_main: [cam_cs1_out_real] Pipeline stopped
+2026-07-23 15:27:40,411 [INFO] multi_main: Save to database success Chien
+2026-07-23 15:27:41,193 [INFO] multi_main: [cam_cs1_in_real] Pipeline stopped
+2026-07-23 15:28:51,119 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-23 15:28:54,040 [INFO] multi_main: Face identifier ready.
+2026-07-23 15:28:54,040 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-23 15:28:54,196 [INFO] multi_main: 3 identity + 0 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 15:28:54,329 [INFO] multi_main: [webcam] Pipeline running
+2026-07-23 15:28:55,353 [INFO] multi_main: [cam_cs1_out_real] Pipeline running
+2026-07-23 15:28:58,447 [WARNING] multi_main: [cam_cs1_in_real] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-23 15:28:58,448 [INFO] multi_main: [cam_cs1_in_real] Pipeline running
+2026-07-23 15:28:59,637 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.491)
+2026-07-23 15:28:59,665 [INFO] multi_main: Save to database success Chien
+2026-07-23 15:29:14,544 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.460)
+2026-07-23 15:29:14,577 [INFO] multi_main: Save to database success Chien
+2026-07-23 15:29:16,943 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-23 15:29:17,095 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.519)
+2026-07-23 15:29:17,122 [INFO] multi_main: Save to database success Chien
+2026-07-23 15:29:17,157 [INFO] multi_main: [cam_cs1_out_real] Pipeline stopped
+2026-07-23 15:29:18,614 [INFO] multi_main: [cam_cs1_in_real] Pipeline stopped
+2026-07-23 15:34:38,501 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-23 15:34:41,076 [INFO] multi_main: Face identifier ready.
+2026-07-23 15:34:41,077 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-23 15:34:41,212 [INFO] multi_main: 2 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 15:34:41,348 [INFO] multi_main: [webcam] Pipeline running
+2026-07-23 15:34:44,238 [WARNING] multi_main: [cam_cs1_in_real] Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-23 15:34:44,239 [INFO] multi_main: [cam_cs1_in_real] Pipeline running
+2026-07-23 15:34:45,370 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 15:34:45,792 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.614)
+2026-07-23 15:34:46,313 [INFO] multi_main: Save to database success Chien
+2026-07-23 15:34:48,654 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.627)
+2026-07-23 15:34:48,681 [INFO] multi_main: Save to database success Chien
+2026-07-23 15:34:54,355 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-23 15:34:54,427 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.718)
+2026-07-23 15:34:54,456 [INFO] multi_main: Save to database success Chien
+2026-07-23 15:34:54,476 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-23 15:34:56,400 [INFO] multi_main: [cam_cs1_in_real] Pipeline stopped
+2026-07-23 15:37:04,725 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 15:37:05,888 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 15:39:02,172 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 1
+2026-07-23 15:39:45,957 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 5
+2026-07-23 15:43:03,718 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 22
+2026-07-23 15:43:06,693 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 22
+2026-07-23 15:45:52,858 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-23 15:47:51,299 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 15:47:52,415 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 15:48:08,020 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-23 15:52:52,946 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 15:52:54,072 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 15:55:25,193 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-23 15:55:32,201 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 15:55:33,324 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 15:57:29,437 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-23 15:57:36,335 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 15:57:37,474 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 15:58:50,200 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 15:58:51,326 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 15:59:04,938 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-23 15:59:44,104 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 15:59:45,230 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 15:59:59,989 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-23 16:00:17,916 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 16:00:19,032 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 16:00:32,645 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-23 16:01:01,957 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 16:01:03,086 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 16:01:20,492 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-23 16:01:42,342 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 16:01:43,484 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 16:04:17,723 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 2
+2026-07-23 16:04:20,483 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 7
+2026-07-23 16:05:02,437 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 13
+2026-07-23 16:05:08,183 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 13
+2026-07-23 16:05:19,875 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 14
+2026-07-23 16:10:01,851 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 21
+2026-07-23 16:10:02,920 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 24
+2026-07-23 16:12:47,648 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 29
+2026-07-23 16:12:48,699 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 30
+2026-07-23 16:19:43,357 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 42
+2026-07-23 16:24:16,585 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-23 16:24:34,818 [INFO] multi_main: [cam_cs1_out_real] Số người hiện có mặt lúc khởi động (address=cs1): 5
+2026-07-23 16:24:34,818 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 16:24:35,966 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 16:32:44,727 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 10
+2026-07-23 16:33:39,493 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 18
+2026-07-23 16:33:47,798 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 22
+2026-07-23 16:42:51,002 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 60
+2026-07-23 16:54:10,401 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 73
+2026-07-23 16:56:48,790 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 80
+2026-07-23 17:01:51,750 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 84
+2026-07-23 17:02:21,118 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 84
+2026-07-23 17:03:33,993 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 90
+2026-07-23 17:03:44,301 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 91
+2026-07-23 17:12:12,709 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 95
+2026-07-23 17:12:58,810 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 98
+2026-07-23 17:14:43,603 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 108
+2026-07-23 17:14:47,115 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 108
+2026-07-23 17:16:36,041 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 110
+2026-07-23 17:18:32,334 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 116
+2026-07-23 17:18:47,181 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 121
+2026-07-23 17:18:49,413 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 122
+2026-07-23 17:19:46,255 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 128
+2026-07-23 17:22:27,970 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 129
+2026-07-23 17:22:38,558 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 136
+2026-07-23 17:24:25,760 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 144
+2026-07-23 17:24:30,963 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 144
+2026-07-23 17:26:43,459 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 158
+2026-07-23 17:37:57,095 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 181
+2026-07-23 17:38:02,917 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 181
+2026-07-23 17:38:16,906 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 191
+2026-07-23 17:44:14,301 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-23 17:44:21,282 [INFO] multi_main: [cam_cs1_out_real] Số người hiện có mặt lúc khởi động (address=cs1): 2
+2026-07-23 17:44:21,282 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 17:44:22,425 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 17:44:41,592 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-23 17:52:22,689 [INFO] multi_main: [cam_cs1_out_real] Số người hiện có mặt lúc khởi động (address=cs1): 2
+2026-07-23 17:52:22,690 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 17:52:24,112 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 17:53:08,884 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-23 17:53:11,064 [INFO] multi_main: Face identifier ready.
+2026-07-23 17:53:11,065 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-23 17:53:11,252 [INFO] multi_main: [cam_cs1_out_real] Số người hiện có mặt lúc khởi động (address=cs1): 2
+2026-07-23 17:53:11,252 [INFO] multi_main: 1 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-23 17:53:11,373 [INFO] multi_main: [webcam] Pipeline running
+2026-07-23 17:53:12,624 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-23 17:53:34,179 [INFO] multi_main: [webcam] [MATCH] Track 1 -> Chien (person_id=1783055832, is_in=True, 0.553)
+2026-07-23 17:53:34,345 [INFO] multi_main: Save to database success Chien
+2026-07-23 17:54:10,257 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 16
+2026-07-23 17:54:11,243 [INFO] multi_main: [webcam] [MATCH] Track 3 -> Chien (person_id=1783055832, is_in=True, 0.582)
+2026-07-23 17:54:11,535 [INFO] multi_main: Save to database success Chien
+2026-07-23 17:54:13,816 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 16
+2026-07-23 17:54:30,138 [INFO] multi_main: [webcam] [MATCH] Track 3 -> Chien (person_id=1783055832, is_in=True, 0.660)
+2026-07-23 17:54:30,283 [INFO] multi_main: Save to database success Chien
+2026-07-23 17:54:42,937 [INFO] multi_main: [webcam] [UNKNOWN] Track 3 (0.000)
+2026-07-23 17:54:42,938 [WARNING] multi_main: [webcam] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-23 17:54:52,993 [INFO] multi_main: [webcam] [UNKNOWN] Track 3 (0.000)
+2026-07-23 17:54:52,994 [WARNING] multi_main: [webcam] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-23 17:55:00,403 [INFO] multi_main: [webcam] [UNKNOWN] Track 3 (0.000)
+2026-07-23 17:55:00,403 [WARNING] multi_main: [webcam] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-23 17:55:42,801 [INFO] multi_main: [webcam] [MATCH] Track 3 -> Chien (person_id=1783055832, is_in=True, 0.662)
+2026-07-23 17:55:42,927 [INFO] multi_main: Save to database success Chien
+2026-07-23 17:56:02,838 [INFO] multi_main: [webcam] [UNKNOWN] Track 3 (0.000)
+2026-07-23 17:56:02,838 [WARNING] multi_main: [webcam] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-23 17:56:16,745 [INFO] multi_main: [webcam] [UNKNOWN] Track 3 (0.000)
+2026-07-23 17:56:16,745 [WARNING] multi_main: [webcam] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-23 17:58:39,404 [INFO] multi_main: [webcam] [UNKNOWN] Track 3 (0.000)
+2026-07-23 17:58:39,404 [WARNING] multi_main: [webcam] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-23 18:00:01,138 [INFO] multi_main: [webcam] [MATCH] Track 3 -> Chien (person_id=1783055832, is_in=True, 0.488)
+2026-07-23 18:00:01,168 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:00:10,060 [INFO] multi_main: [webcam] [UNKNOWN] Track 42 (0.000)
+2026-07-23 18:00:10,060 [WARNING] multi_main: [webcam] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-23 18:00:15,697 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 59
+2026-07-23 18:00:19,385 [INFO] multi_main: [webcam] [UNKNOWN] Track 42 (0.000)
+2026-07-23 18:00:19,386 [WARNING] multi_main: [webcam] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-23 18:00:52,824 [INFO] multi_main: [webcam] [UNKNOWN] Track 42 -> unk_8dd30b52af (is_in=True, 0.391)
+2026-07-23 18:00:52,864 [INFO] multi_main: Save to database success Người lạ
+2026-07-23 18:00:52,893 [INFO] multi_main: [webcam] [SESSION-IN] unk_8dd30b52af -> entry_time=18:00
+2026-07-23 18:01:53,997 [INFO] multi_main: [webcam] [UNKNOWN] Track 42 (0.000)
+2026-07-23 18:01:53,998 [WARNING] multi_main: [webcam] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-23 18:04:01,783 [INFO] multi_main: [webcam] [UNKNOWN] Track 42 (0.000)
+2026-07-23 18:04:01,784 [WARNING] multi_main: [webcam] Không detect được mặt ở bất kỳ crop ứng viên nào của track này -> BỎ QUA, không ghi DB
+2026-07-23 18:05:38,565 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 78
+2026-07-23 18:05:39,488 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.691)
+2026-07-23 18:05:39,519 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:05:57,821 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 84
+2026-07-23 18:07:31,310 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.562)
+2026-07-23 18:07:31,346 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:07:44,423 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.485)
+2026-07-23 18:07:44,456 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:07:49,140 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.553)
+2026-07-23 18:07:49,167 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:07:58,521 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.653)
+2026-07-23 18:07:58,549 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:08:07,835 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.632)
+2026-07-23 18:08:07,862 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:08:10,072 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 116
+2026-07-23 18:08:31,416 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 130
+2026-07-23 18:08:45,516 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 131
+2026-07-23 18:08:47,393 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 133
+2026-07-23 18:08:58,772 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.628)
+2026-07-23 18:08:58,815 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:09:45,592 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.598)
+2026-07-23 18:09:45,759 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:09:57,411 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.575)
+2026-07-23 18:09:57,517 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:11:15,748 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.596)
+2026-07-23 18:11:15,788 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:12:01,540 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.513)
+2026-07-23 18:12:01,568 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:12:32,267 [INFO] multi_main: [webcam] [UNKNOWN] Track 42 -> unk_2d7438cb81 (is_in=True, 0.434)
+2026-07-23 18:12:32,313 [INFO] multi_main: Save to database success Người lạ
+2026-07-23 18:12:32,344 [INFO] multi_main: [webcam] [SESSION-IN] unk_2d7438cb81 -> entry_time=18:12
+2026-07-23 18:13:33,061 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.610)
+2026-07-23 18:13:33,114 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:13:41,267 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.670)
+2026-07-23 18:13:41,301 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:14:11,451 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.607)
+2026-07-23 18:14:11,481 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:14:25,984 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.583)
+2026-07-23 18:14:26,022 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:16:34,681 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.593)
+2026-07-23 18:16:34,747 [INFO] multi_main: Save to database success Chien
+2026-07-23 18:17:41,003 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 197
+2026-07-24 07:17:30,630 [INFO] multi_main: [webcam] Pipeline stopped
+2026-07-24 07:17:30,962 [INFO] multi_main: [webcam] [MATCH] Track 42 -> Chien (person_id=1783055832, is_in=True, 0.497)
+2026-07-24 07:17:52,707 [INFO] multi_main: Save to database success Chien
+2026-07-24 11:12:07,320 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-24 11:12:10,165 [INFO] multi_main: Face identifier ready.
+2026-07-24 11:12:10,166 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-24 11:12:10,369 [INFO] multi_main: [cam_cs1_out_real] Số người hiện có mặt lúc khởi động (address=cs1): 3
+2026-07-24 11:12:10,369 [INFO] multi_main: 1 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-24 11:12:10,492 [INFO] multi_main: [webcam] Pipeline running
+2026-07-24 11:12:40,457 [WARNING] multi_main: [cam_cs1_out_real] (occupancy) Không kết nối được lúc khởi động - sẽ tự động thử lại ở nền, không cần khởi động lại chương trình.
+2026-07-24 11:12:40,458 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-25 22:10:32,208 [INFO] multi_main: Loading face identifier (insightface + faiss, dùng chung cho tất cả camera)...
+2026-07-25 22:10:35,220 [INFO] multi_main: Face identifier ready.
+2026-07-25 22:10:35,221 [INFO] multi_main: Unknown-person gallery ready (ttl=21600s).
+2026-07-25 22:10:35,359 [INFO] multi_main: [cam_cs1_out_real] Số người hiện có mặt lúc khởi động (address=cs1): 3
+2026-07-25 22:10:35,359 [INFO] multi_main: 1 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-25 22:10:35,509 [INFO] multi_main: [webcam] Pipeline running
+2026-07-25 22:10:37,437 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-25 22:11:40,772 [INFO] multi_main: [webcam] [MATCH] Track 4 -> Chien (person_id=1783055832, is_in=True, 0.685)
+2026-07-25 22:11:40,809 [INFO] multi_main: Save to database success Chien
+2026-07-25 22:13:48,039 [INFO] multi_main: [cam_cs1_out_real] Số người hiện có mặt lúc khởi động (address=cs1): 3
+2026-07-25 22:13:48,039 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-25 22:13:49,590 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running
+2026-07-25 22:16:23,909 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 6
+2026-07-25 22:16:29,069 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 9
+2026-07-25 22:16:30,253 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 9
+2026-07-25 22:21:55,335 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 15
+2026-07-25 22:22:14,931 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 20
+2026-07-25 22:34:47,802 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 25
+2026-07-25 22:34:55,921 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 25
+2026-07-25 22:46:23,088 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 51
+2026-07-25 22:48:46,269 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 64
+2026-07-25 22:48:53,514 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 64
+2026-07-25 22:49:39,124 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 68
+2026-07-25 22:49:43,217 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 68
+2026-07-25 22:57:57,769 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 80
+2026-07-25 22:57:57,920 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 80
+2026-07-25 23:15:20,126 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 127
+2026-07-25 23:15:20,917 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 128
+2026-07-25 23:35:30,777 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 151
+2026-07-26 00:04:24,661 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 159
+2026-07-26 00:15:51,241 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 164
+2026-07-26 00:25:00,691 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 171
+2026-07-26 00:27:52,246 [INFO] multi_main: [cam_cs1_out_real] [ZONE-IN] track 192
+2026-07-26 01:36:25,397 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 243
+2026-07-26 01:36:29,187 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 250
+2026-07-26 01:36:31,250 [INFO] multi_main: [cam_cs1_out_real] [ZONE-OUT] track 251
+2026-07-26 02:03:03,853 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 06:12:19,881 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 06:13:04,963 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 06:45:16,575 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 06:59:14,519 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 07:14:19,508 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 07:45:49,568 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 07:48:47,797 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 07:57:11,881 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 08:02:09,237 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 09:12:36,349 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 09:36:54,986 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 09:44:32,035 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 10:07:10,053 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 10:08:22,665 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 10:18:17,841 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 10:21:35,590 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 10:36:47,110 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 10:48:22,409 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 10:55:16,393 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 11:01:07,807 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 11:03:17,475 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 11:07:29,790 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 11:17:11,466 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 11:25:35,045 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 11:39:09,480 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 11:51:20,319 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 12:19:52,212 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 23:01:15,096 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 23:06:24,465 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 23:09:07,675 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-26 23:55:15,161 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-27 00:04:35,774 [ERROR] multi_main: [cam_cs1_out_real] Lỗi ghi zone_event: 103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6a64d2ab94f0456bdcb7d95b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('103.159.51.61', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('103.159.51.61:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('b333d3556a7d', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('b333d3556a7d:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-07-27 07:32:35,589 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline stopped
+2026-07-27 07:55:21,260 [INFO] multi_main: [cam_cs1_out_real] Số người hiện có mặt lúc khởi động (address=cs1): 7
+2026-07-27 07:55:21,261 [INFO] multi_main: 0 identity + 1 occupancy camera pipeline(s) started - Press Q to quit
+2026-07-27 07:55:24,003 [INFO] multi_main: [cam_cs1_out_real] Occupancy pipeline running

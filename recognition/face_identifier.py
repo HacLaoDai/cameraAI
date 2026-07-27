@@ -1,3 +1,11 @@
+"""
+⚠️ DEPRECATED - KHÔNG còn được dùng trong pipeline chính (multi_main.py).
+
+Xem ghi chú ở recognition/build_system_regconition.py - pipeline hiện tại
+dùng recognition/person_db_recognizer.py (PersonDBRecognizer) thay cho
+FaceIdentifier ở file này.
+"""
+
 import os
 import tempfile
 

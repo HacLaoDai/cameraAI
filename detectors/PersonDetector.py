@@ -1,5 +1,26 @@
+import threading
+
 import torch
 from ultralytics import YOLO
+
+# -------------------------------------------------------------------------
+# LOCK TOÀN CỤC (dùng chung cho MỌI instance PersonDetector trong tiến
+# trình) - QUAN TRỌNG khi chạy NHIỀU camera (nhiều PersonDetector, mỗi cái
+# 1 model YOLO riêng) trong NHIỀU THREAD khác nhau cùng lúc.
+#
+# Chạy nhiều model PyTorch/YOLO trên CPU THẬT SỰ ĐỒNG THỜI ở nhiều thread
+# khác nhau trong CÙNG 1 tiến trình là nguyên nhân phổ biến gây CRASH CẤP
+# THẤP (segmentation fault) - không có traceback Python nào cả, chương
+# trình chỉ đột ngột dừng - vì các thư viện BLAS bên dưới (OpenBLAS/MKL)
+# mà torch dùng để tính toán không đảm bảo an toàn khi bị gọi chồng chéo
+# từ nhiều thread thật sự song song.
+#
+# Lock này đảm bảo tại 1 thời điểm CHỈ CÓ ĐÚNG 1 lệnh .track() (của bất kỳ
+# camera nào) được chạy - các camera khác đang chờ tới lượt sẽ CHỜ Ở ĐÂY
+# (rất nhanh, vài chục-vài trăm ms mỗi lần), KHÔNG bị mất frame, chỉ hơi
+# giảm FPS hiệu dụng khi nhiều camera cùng có chuyển động một lúc - đánh
+# đổi hợp lý để đổi lấy việc không crash.
+_YOLO_INFERENCE_LOCK = threading.Lock()
 
 
 class PersonDetector:
@@ -23,15 +44,20 @@ class PersonDetector:
 
     def detect(self, frame):
 
-        results = self.model.track(
-            frame,
-            persist=True,
-            tracker="bytetrack.yaml",
-            classes=[0],
-            conf=self.confidence,
-            imgsz=self.imgsz,
-            verbose=False,
-        )
+        # QUAN TRỌNG: bọc lock quanh ĐÚNG lệnh gọi vào model - xem giải
+        # thích ở _YOLO_INFERENCE_LOCK phía trên. Đây là điểm duy nhất
+        # PyTorch/YOLO thực sự chạy tính toán nặng, các bước xử lý
+        # kết quả (result.boxes...) bên dưới không cần khoá.
+        with _YOLO_INFERENCE_LOCK:
+            results = self.model.track(
+                frame,
+                persist=True,
+                tracker="bytetrack.yaml",
+                classes=[0],
+                conf=self.confidence,
+                imgsz=self.imgsz,
+                verbose=False,
+            )
 
         detections = []
 

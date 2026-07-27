@@ -8,11 +8,14 @@ VÍ DỤ:
     python manage_persons.py list
 
     # Thêm người mới từ ảnh có sẵn
-    python3.10 manage_persons.py add --name "chien" --type nhan_vien --sex 0 --age 22 \
-        --images /home/lychien/Desktop/img/chien.jpg /home/lychien/Desktop/Project_new/saved_person/webcam/person_1.jpg
+    python3.10 manage_persons.py add --name "khanh" --type nhan_vien --sex 0 --age 21 \
+        --images /home/lychien/Downloads/nhanvien.jpg
+
+    # Thêm người mới từ ảnh bằng URL-
+    python3.10 manage_persons.py add --name "testURL" --image-urls "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nJNGcJ3uCTZM1JSbD-61H0kFREhtDYNtUgr0wrju6A&s=10"
 
     # Thêm người mới bằng webcam
-    python manage_persons.py add --name "Nhung" --webcam --num-captures 5
+    python3.10 manage_persons.py add --name "Chien" --webcam --num-captures 5
 
     # Sửa thông tin (không đổi ảnh/embedding)
     python manage_persons.py edit --name "Nhung" --new-name "Nguyen Thi Nhung" --age 23
@@ -22,6 +25,7 @@ VÍ DỤ:
 
     # Thêm ảnh/embedding bổ sung (KHÔNG xóa embedding cũ)
     python manage_persons.py edit --name "Nhung" --images anh_moi.jpg
+    python manage_persons.py edit --name "Nhung" --image-urls "https://example.com/anh_moi.jpg"
 
     # Xóa hẳn 1 người
     python3.10 manage_persons.py delete --name "chien"
@@ -31,13 +35,15 @@ VÍ DỤ:
 import argparse
 
 import cv2
+import numpy as np
+import requests
 
 from detectors.detect_face import ArcFaceExtractor
 from database import task_db
 
 
 # ======================================================
-# HELPERS - trích embedding từ ảnh / webcam
+# HELPERS - trích embedding từ ảnh / webcam / url
 # ======================================================
 def get_largest_embedding(extractor, img):
     """Lấy embedding của khuôn mặt LỚN NHẤT trong ảnh (thường rõ nét nhất)."""
@@ -49,6 +55,25 @@ def get_largest_embedding(extractor, img):
     areas = [(b[2] - b[0]) * (b[3] - b[1]) for b in bboxes]
     idx = areas.index(max(areas))
     return embeddings[idx]
+
+
+def download_image_from_url(url, timeout=10):
+    """Tải ảnh từ URL và decode thành ảnh OpenCV (BGR). Trả về None nếu lỗi."""
+    try:
+        resp = requests.get(url, timeout=timeout)
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        print(f"[WARN] Không tải được ảnh từ URL: {url} ({e})")
+        return None
+
+    img_array = np.frombuffer(resp.content, dtype=np.uint8)
+    img = cv2.imdecode(img_array, cv2.IMREAD_COLOR)
+
+    if img is None:
+        print(f"[WARN] Dữ liệu tải về không phải ảnh hợp lệ: {url}")
+        return None
+
+    return img
 
 
 def capture_embeddings_from_images(extractor, image_paths):
@@ -69,6 +94,27 @@ def capture_embeddings_from_images(extractor, image_paths):
 
         embeddings.append(emb)
         print(f"[OK] Trích embedding từ: {path}")
+
+    return embeddings
+
+
+def capture_embeddings_from_urls(extractor, urls):
+    embeddings = []
+
+    for url in urls:
+        img = download_image_from_url(url)
+
+        if img is None:
+            continue
+
+        emb = get_largest_embedding(extractor, img)
+
+        if emb is None:
+            print(f"[WARN] Không tìm thấy khuôn mặt trong ảnh (URL): {url}")
+            continue
+
+        embeddings.append(emb)
+        print(f"[OK] Trích embedding từ URL: {url}")
 
     return embeddings
 
@@ -140,18 +186,30 @@ def resolve_person(person_id=None, name=None):
 
 
 def get_new_embeddings(args, window_title="Capture"):
-    """Trả về list embedding mới nếu người dùng có yêu cầu --images/--webcam, ngược lại []."""
-    if not args.images and not args.webcam:
+    """Trả về list embedding mới nếu người dùng có yêu cầu --images/--image-urls/--webcam, ngược lại []."""
+    if not args.images and not args.image_urls and not args.webcam:
         return []
 
     extractor = ArcFaceExtractor(ctx_id=args.ctx_id)
 
+    embeddings = []
+
+    if args.images:
+        embeddings.extend(capture_embeddings_from_images(extractor, args.images))
+
+    if args.image_urls:
+        embeddings.extend(capture_embeddings_from_urls(extractor, args.image_urls))
+
+# code dungf web cam
+
     if args.webcam:
-        return capture_embeddings_from_webcam(
-            extractor, args.num_captures, args.camera_index, window_title
+        embeddings.extend(
+            capture_embeddings_from_webcam(
+                extractor, args.num_captures, args.camera_index, window_title
+            )
         )
 
-    return capture_embeddings_from_images(extractor, args.images)
+    return embeddings
 
 
 # ======================================================
@@ -171,7 +229,7 @@ def cmd_add(args):
     embeddings = get_new_embeddings(args, window_title=f"Add - {args.name}")
 
     if not embeddings:
-        raise SystemExit("Cần --images <đường dẫn...> hoặc --webcam để có embedding.")
+        raise SystemExit("Cần --images <đường dẫn...>, --image-urls <url...> hoặc --webcam để có embedding.")
 
     existing = task_db.find_person_by_name(args.name)
 
@@ -223,7 +281,7 @@ def cmd_edit(args):
         task_db.clear_person_embeddings(person_id)
         print("[OK] Đã xóa toàn bộ embedding cũ")
 
-    # --- Thêm embedding mới (nếu có --images/--webcam) ---
+    # --- Thêm embedding mới (nếu có --images/--image-urls/--webcam) ---
     embeddings = get_new_embeddings(args, window_title=f"Edit - {person['name']}")
 
     for emb in embeddings:
@@ -234,7 +292,7 @@ def cmd_edit(args):
 
     if not update_data and not args.clear_embeddings and not embeddings:
         print("[WARN] Không có gì để sửa - hãy truyền ít nhất 1 field, --clear-embeddings, "
-              "hoặc --images/--webcam")
+              "hoặc --images/--image-urls/--webcam")
 
     print(f"[DONE] person_id={person_id}")
 
@@ -297,6 +355,8 @@ def main():
     p_add.add_argument("--email", default="")
     p_add.add_argument("--nation", default="VN")
     p_add.add_argument("--images", nargs="*")
+    p_add.add_argument("--image-urls", nargs="*", dest="image_urls",
+                        help="Danh sách URL ảnh để tải về và trích embedding")
     p_add.add_argument("--webcam", action="store_true")
     p_add.add_argument("--num-captures", type=int, default=5)
     p_add.add_argument("--camera-index", type=int, default=0)
@@ -315,8 +375,10 @@ def main():
     p_edit.add_argument("--email")
     p_edit.add_argument("--nation")
     p_edit.add_argument("--clear-embeddings", action="store_true",
-                         help="Xóa hết embedding cũ trước khi thêm mới (nếu có --images/--webcam)")
+                         help="Xóa hết embedding cũ trước khi thêm mới (nếu có --images/--image-urls/--webcam)")
     p_edit.add_argument("--images", nargs="*")
+    p_edit.add_argument("--image-urls", nargs="*", dest="image_urls",
+                         help="Danh sách URL ảnh để tải về và trích embedding")
     p_edit.add_argument("--webcam", action="store_true")
     p_edit.add_argument("--num-captures", type=int, default=5)
     p_edit.add_argument("--camera-index", type=int, default=0)
@@ -340,6 +402,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
-    
-    

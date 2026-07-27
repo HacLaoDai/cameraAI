@@ -4,12 +4,21 @@ import os
 
 
 class ArcFaceExtractor:
-    def __init__(self, ctx_id=0, det_size=(640, 640)):
+    def __init__(self, ctx_id=0, det_size=(640, 640), allowed_modules=("detection", "recognition")):
         """
         ctx_id = 0: GPU
         ctx_id = -1: CPU
+
+        allowed_modules: CHỈ load/chạy đúng những model cần thiết. Mặc định
+        FaceAnalysis() load ĐỦ 5 model (detection, recognition, landmark_3d_68,
+        landmark_2d_106, genderage) và app.get() chạy TẤT CẢ mỗi lần gọi, dù
+        pipeline hiện tại chỉ dùng bbox (detection) + embedding (recognition)
+        để so khớp. 3 model landmark/genderage hoàn toàn lãng phí compute -
+        đây là nguyên nhân chính khiến mỗi lần detect mất 900ms-1.1s dù đã
+        giảm det_size. Giới hạn allowed_modules giúp giảm đáng kể thời gian
+        này (chỉ còn chạy 2/5 model).
         """
-        self.app = FaceAnalysis()
+        self.app = FaceAnalysis(allowed_modules=list(allowed_modules))
         self.app.prepare(ctx_id=ctx_id, det_size=det_size)
 
     def detect_faces(self, img):

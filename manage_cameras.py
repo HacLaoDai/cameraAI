@@ -8,22 +8,48 @@ mới (multi_main.py load danh sách camera từ DB 1 lần lúc start).
 VÍ DỤ:
 
     # Xem danh sách camera
-    python manage_cameras.py list
+    python3.10 manage_cameras.py list
 
     # Thêm camera webcam mặc định của máy (cổng VÀO)
-    python3.10 manage_cameras.py add --serial webcam-01 --channel webcam \
-        --url 0 --in
+    python3.10 manage_cameras.py add --serial webcam-02 --channel webcam \
+        --url 0 --in --address CS1
+
+    # Ví dụ build chuỗi RTSP URL trong code (thay bằng giá trị thật, lấy từ
+    # biến môi trường/file config, KHÔNG hardcode trong source):
+    #   username = os.environ["CAM_USER"]
+    #   password = os.environ["CAM_PASS"]
+    #   ip = os.environ["CAM_IP"]
+    #   rtsp_url = f"rtsp://{username}:{password}@{ip}:554/ch01/0"
 
     # Thêm camera RTSP (cổng RA)
+    # LƯU Ý: KHÔNG dán user/pass thật vào lệnh này khi copy làm ví dụ/lưu
+    # log/gửi cho người khác - RTSP URL chứa password ở dạng plain text.
     python manage_cameras.py add --serial cam-ra-01 --channel cam1 \
-        --url "rtsp://localhost:8554/live1" --out
+        --url "rtsp://<user>:<pass>@<camera_ip>:554/ch01/0" --in --address CS1
 
     # Thêm camera thuộc 1 recorder (NVR) đã tạo sẵn (theo mac recorder)
     python manage_cameras.py add --serial cam-vao-02 --channel cam2 \
         --url "rtsp://192.168.1.50:554/live2" --in --recorder-mac AA:BB:CC:DD:EE:FF
 
+    # ---------------------------------------------------------------
+    # CAMERA CẶP (paired) - 2 camera cùng quay 1 cửa, 1 IN + 1 OUT, dùng
+    # để RESET dedup khi người thật sự đi qua cửa đó (xem multi_main.py -
+    # RecognitionWorker._is_recently_logged()). NÊN đặt cặp 2 CHIỀU (mỗi
+    # camera trỏ về camera kia) để reset hoạt động đúng bất kể ai bị dedup
+    # trước:
+    #     python manage_cameras.py edit --channel cam_cs1_in  --pair cam_cs1_out
+    #     python3.10 manage_cameras.py edit --channel cam_cs1_out --pair cam_cs1_in
+    #
+    # Camera KHÔNG cặp với camera nào (vd camera giám sát chung, không gắn
+    # với 1 cửa in/out cụ thể) thì bỏ qua --pair - mặc định paired_channel
+    # = None, dedup chạy như bình thường (theo is_in, không có reset).
+    #
+    # Gỡ cặp: truyền chuỗi rỗng
+    #     python manage_cameras.py edit --channel cam_cs1_in --pair ""
+    # ---------------------------------------------------------------
+
     # Sửa url / đổi hướng / đổi tên channel
-    python manage_cameras.py edit --serial cam-ra-01 --url "rtsp://newip/live1"
+    python3.10 manage_cameras.py edit --serial cam_cs1_out_real --url "rtsp://admin:abcd1234%40%40@8aff08d3d4e5.sn.mynetname.net:554/Streaming/Channels/201"
     python manage_cameras.py edit --channel cam1 --out
     python manage_cameras.py edit --serial cam-ra-01 --new-channel cam1-ra
 
@@ -75,6 +101,25 @@ def resolve_recorder_id(recorder_mac):
     return recorder["_id"]
 
 
+def validate_pair_target(pair_channel, own_channel=None):
+    """Nếu --pair được truyền (khác None) và khác rỗng, kiểm tra channel đó
+    thật sự tồn tại trong DB - tránh cấu hình treo (trỏ tới channel không
+    có thật) khiến logic reset dedup không bao giờ kích hoạt được mà không
+    có cảnh báo gì."""
+    if not pair_channel:
+        return  # None hoặc "" (gỡ cặp) -> không cần kiểm tra
+
+    if own_channel is not None and pair_channel == own_channel:
+        raise SystemExit("--pair không được trỏ vào chính channel của camera đó.")
+
+    target = task_db.get_camera_by_channel(pair_channel)
+    if not target:
+        raise SystemExit(
+            f"--pair '{pair_channel}' không tồn tại trong DB - hãy thêm camera "
+            f"đó trước, hoặc kiểm tra lại tên channel."
+        )
+
+
 # ======================================================
 # COMMAND: add
 # ======================================================
@@ -90,20 +135,28 @@ def cmd_add(args):
 
     recorder_id = resolve_recorder_id(args.recorder_mac)
 
+    validate_pair_target(args.pair, own_channel=args.channel)
+
     camera_id = task_db.create_camera(
         serial=args.serial,
         channel=args.channel,
         is_in=(args.direction == "in"),
         url=args.url,
+        address=args.address,
         ip=args.ip,
         status=not args.disabled,
         recorder_id=recorder_id,
+        # Camera cặp (cùng 1 cửa, hướng ngược lại) - dùng để reset dedup
+        # khi người thật sự đi qua cửa đó, xem multi_main.py. None nếu
+        # camera này không thuộc cặp nào (--pair không được truyền).
+        paired_channel=args.pair or None,
     )
 
     direction_label = "VÀO" if args.direction == "in" else "RA"
+    pair_label = f", cặp với '{args.pair}'" if args.pair else ""
     print(
         f"[DONE] Đã thêm camera '{args.channel}' "
-        f"(serial={args.serial}, url={args.url}, cổng {direction_label}, "
+        f"(serial={args.serial}, url={args.url}, cổng {direction_label}{pair_label}, "
         f"_id={camera_id})"
     )
 
@@ -142,10 +195,15 @@ def cmd_edit(args):
         # cho phép truyền chuỗi rỗng "" để GỠ liên kết recorder
         update_data["recorder_id"] = resolve_recorder_id(args.recorder_mac) if args.recorder_mac else None
 
+    if args.pair is not None:
+        # cho phép truyền chuỗi rỗng "" để GỠ cặp (paired_channel = None)
+        validate_pair_target(args.pair, own_channel=camera["channel"])
+        update_data["paired_channel"] = args.pair or None
+
     if not update_data:
         raise SystemExit(
             "Không có gì để sửa - hãy truyền ít nhất 1 trong: --url, --ip, "
-            "--new-channel, --in/--out, --enable/--disable, --recorder-mac"
+            "--new-channel, --in/--out, --enable/--disable, --recorder-mac, --pair"
         )
 
     task_db.update_camera(camera_id, update_data)
@@ -185,9 +243,9 @@ def cmd_list(args):
 
     print(
         f"{'channel':<15} {'serial':<15} {'url':<35} "
-        f"{'direction':<9} {'status':<8} {'recorder_id'}"
+        f"{'direction':<9} {'status':<8} {'paired_channel':<15} {'recorder_id'}"
     )
-    print("-" * 100)
+    print("-" * 115)
 
     for c in cams:
         direction = "VAO" if c.get("is_in") else "RA"
@@ -199,6 +257,7 @@ def cmd_list(args):
             f"{str(c.get('url', '')):<35} "
             f"{direction:<9} "
             f"{status:<8} "
+            f"{c.get('paired_channel') or '-':<15} "
             f"{c.get('recorder_id') or ''}"
         )
 
@@ -217,9 +276,14 @@ def main():
                         help="Tên dùng trong multi_main.py (CAMERAS[].name) và join với face_events, phải DUY NHẤT")
     p_add.add_argument("--url", required=True,
                         help="Chuỗi mở camera: RTSP URL, hoặc số 0/1/2.. cho webcam local")
+    p_add.add_argument("--address", required=True,
+                        help="Cơ sở mà camera được đặt")
     p_add.add_argument("--ip", default=None)
     p_add.add_argument("--recorder-mac", default=None, help="MAC của recorder/NVR (nếu camera thuộc 1 đầu ghi)")
     p_add.add_argument("--disabled", action="store_true", help="Thêm nhưng để status=OFF (multi_main.py sẽ bỏ qua)")
+    p_add.add_argument("--pair", default=None,
+                        help="Channel của camera CẶP với camera này (cùng 1 cửa, hướng ngược lại) - "
+                             "dùng để reset dedup khi người thật sự đi qua cửa. Bỏ trống nếu không thuộc cặp nào.")
 
     direction = p_add.add_mutually_exclusive_group(required=True)
     direction.add_argument("--in", dest="direction", action="store_const", const="in", help="Camera đặt ở cổng VÀO")
@@ -235,6 +299,8 @@ def main():
     p_edit.add_argument("--ip", default=None)
     p_edit.add_argument("--recorder-mac", default=None,
                          help="Đổi recorder liên kết. Truyền chuỗi rỗng \"\" để gỡ liên kết.")
+    p_edit.add_argument("--pair", default=None,
+                         help="Đổi channel CẶP với camera này. Truyền chuỗi rỗng \"\" để gỡ cặp.")
 
     edit_direction = p_edit.add_mutually_exclusive_group()
     edit_direction.add_argument("--in", dest="direction", action="store_const", const="in")

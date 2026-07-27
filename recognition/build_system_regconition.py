@@ -1,3 +1,16 @@
+"""
+⚠️ DEPRECATED - KHÔNG còn được dùng trong pipeline chính (multi_main.py).
+
+multi_main.py hiện dùng recognition/person_db_recognizer.py (insightface +
+faiss, đọc trực tiếp từ MongoDB persons) để nhận diện, KHÔNG dùng
+ArcFaceRecognizer (DeepFace + faiss trên file ảnh) ở file này nữa.
+
+File này (cùng với face_identifier.py) là cách tiếp cận CŨ, giữ lại chỉ để
+tham khảo. Nếu không còn dùng, nên xoá hẳn để tránh nhầm lẫn khi bảo trì
+sau này (2 pipeline nhận diện // 2 nguồn embedding khác nhau rất dễ gây lỗi
+nếu ai đó vô tình import nhầm file).
+"""
+
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"   # ép chạy CPU tránh lỗi CUDA
 import pickle
